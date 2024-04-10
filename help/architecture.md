@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，架構
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 48ba054d7ef3b4e27e0b4d6026dfc2475917723e
+source-git-commit: 56ad9d8fefc4933847061ba6007ad367984bd2e0
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 0%
