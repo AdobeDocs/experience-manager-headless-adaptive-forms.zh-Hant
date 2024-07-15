@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 使用您自己的元件針對Headless表單開發 {#developing-for-headless-forms-using-your-own-components}
 
-<span class="preview"> 這是 **工作進行中** 文章。</span>
+<span class="preview">這是&#x200B;**進行中的工作**&#x200B;文章。</span>

@@ -5,7 +5,7 @@ hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 source-git-commit: 0127f8ddede38083f0932b0e8d7efdd0dd77c3a6
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '489'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 您可以使用Adobe Experience Manager Headless調適型表單來建立使用前端UI架構(如React、Angular等)的表單應用程式，並使用Adaptive Forms Web SDK進行狀態管理、驗證及與各種其他接觸點整合等功能。
 
-率先採用者版本讓您能夠在 [本機開發環境](setup-development-environment.md). 您可以使用本機開發環境來建置和測試Headless調適型表單。
+早期採用者版本可讓您在[本機開發環境](setup-development-environment.md)中使用Headless最適化表單。 您可以使用本機開發環境來建置和測試Headless調適型表單。
 
 Headless調適型表單會持續進行改善。 如欲瞭解最新發展，請定期造訪此頁面。 本頁提供搶先使用、最新版本、新功能、改善功能、錯誤修正、過時功能、特殊指示和未來變更計畫的相關資訊。
 
@@ -60,25 +60,25 @@ Forms Web SDK提供API來驗證套用至表單各個欄位的限制，並勾選�
 
 #### Storybook
 
-[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/) 提供Headless調適型表單不同元件的概觀。 它還提供所有支援的元件、其對應屬性和限制的清單。
+[Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)提供Headless最適化表單不同元件的概觀。 它還提供所有支援的元件、其對應屬性和限制的清單。
 
 ### Forms核心元件
 
 <!-- Forms components are the structural elements that constitute the content of the form being authored. These components provide various form fields and ability to customize those fields. -->
 
-核心元件是一組標準化的網頁內容管理(WCM)元件，可協助您加快開發時間並降低表單的維護成本。 Forms容器元件是核心元件。 它可協助您在Formsas a Cloud ServiceSDK的最適化Forms編輯器中內嵌及轉譯Headless最適化表單的JSON結構。
+核心元件是一組標準化的網頁內容管理(WCM)元件，可協助您加快開發時間並降低表單的維護成本。 Forms容器元件是核心元件。 它可協助您在Forms as a Cloud Service SDK的調適型Forms編輯器中內嵌及轉譯Headless調適型表單的JSON結構。
 
 ### 最適化Forms V2規格
 
-Headless調適型表單規格提供定義Headless調適型表單可用的所有元件、限制和方法的詳細資訊。 此規格可在 [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) 格式。
+Headless調適型表單規格提供定義Headless調適型表單可用的所有元件、限制和方法的詳細資訊。 規格以[PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf)格式提供。
 
 ### HTTP和JS API
 
-[HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/) 可讓您列出、擷取、驗證、提交、追蹤Headless表單的提交狀態。 [JS API](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) 協助您將無頭式調適型表單與任何JavaScript型UI架構搭配使用。
+[HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)可讓您列出、擷取、驗證、提交、追蹤Headless表單的提交狀態。 [JS API](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/)可協助您將無頭式最適化表單與任何JavaScript式UI架構搭配使用。
 
 ### Visual Studio程式碼擴充功能
 
-[Visual Studio程式碼擴充功能](visual-studio-code-extension-for-headless-adaptive-forms.md) 以協助建立有效的JSON結構。 它提供表單的JSON結構的IntelliSense支援和驗證，以及一般功能，例如JSON結構的新增、刪除或重新命名元件。
+[Visual Studio Code擴充功能](visual-studio-code-extension-for-headless-adaptive-forms.md)可協助建立有效的JSON結構。 它提供表單的JSON結構的IntelliSense支援和驗證，以及一般功能，例如JSON結構的新增、刪除或重新命名元件。
 
 <!-- ## What's next
 

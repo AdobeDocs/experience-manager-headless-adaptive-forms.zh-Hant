@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 為Headless最適化表單產生記錄檔案 {#generate-a-document-of-record-for-a-headless-adaptive-form}
 
-<span class="preview"> 這是 **工作進行中** 文章。</span>
+<span class="preview">這是&#x200B;**進行中的工作**&#x200B;文章。</span>

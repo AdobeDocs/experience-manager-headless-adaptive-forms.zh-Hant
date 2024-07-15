@@ -11,8 +11,8 @@ hide: false
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 source-git-commit: a88f2dab6fda61b674300e1d6a6c4f495ba85c97
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 12%
+source-wordcount: '347'
+ht-degree: 11%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 12%
 
 Adobe Experience Manager (AEM) Headless最適化Forms是在Adobe Experience Manager平台中建立和管理headless網路表單的解決方案。 此功能可讓組織建立、發佈和管理互動式表單，這些表單可透過API存取及互動，而非透過傳統的圖形使用者介面。 AEM Headless最適化Forms在表單開發和部署方面提供了更大的彈性和可擴充性，並透過根據特定需求量身打造表單設計和功能的能力，改善了使用者體驗。 此解決方案利用AEM和Headless技術的功能，為各種使用案例和應用程式建立、管理和部署Web表單提供強大的平台。
 
-![在任何網站、應用程式或非視覺化互動中建立並以原生方式呈現表單](/help/assets/headless-forms-for-any-device.jpeg)
+![在任何網站、應用程式或非視覺化互動中建置並以原生方式轉譯表單](/help/assets/headless-forms-for-any-device.jpeg)
 
 Headless 最適化表單可協助您：
 
 * 使用您選擇的程式語言建置高品質的多管道表單
 * 以原生方式將表單整合到您的桌面和行動應用程式、網站和聊天應用程式
 * 在表單應用程式中重複使用您的專屬 UI 元件
-* 善用 [Adobe Experience Manager Forms的強大功能](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)
+* 利用Adobe Experience Manager Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)的[功能
 
 此外，您可以自由開發自己的元件，使用您選擇的任何UI架構和程式語言來呈現表單。 您也可以使用現成可用的React元件來轉譯Headless調適型表單。
 

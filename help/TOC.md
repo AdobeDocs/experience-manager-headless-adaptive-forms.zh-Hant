@@ -18,19 +18,19 @@ ht-degree: 4%
 + [概觀](overview.md)
 + [概觀測試](overview-testing.md)
 + [架構](architecture.md)
-+ 快速設定 {#quick-setup}
++ 快速設定{#quick-setup}
    + [在AEM 6.5 Forms上啟用Headless最適化Forms](enable-headless-adaptive-forms-and-core-components.md)
-   + [在AEM Formsas a Cloud Service上啟用Headless最適化Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
-+ 教學課程 {#tutorial}
+   + [在AEM Formsas a Cloud Service啟用Headless最適化Forms](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
++ 教學課程{#tutorial}
    + [在AEM Formsas a Cloud Service上使用核心元件和Headless最適化Forms打造引人入勝的Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
    + [在AEM 6.5 Forms上使用核心元件和Headless最適化Forms打造引人入勝的Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
 + 開始使用入門套件{#get-started}
    + [使用入門套件建立及發佈Headless表單](create-and-publish-a-headless-form.md)
    + [使用自訂react程式庫來轉譯Headless表單](use-google-material-ui-react-components-to-render-a-headless-form.md)
-+ 建立Headless最適化表單 {#authoring-headless-adaptive-forms}
++ 建立Headless最適化表單{#authoring-headless-adaptive-forms}
    + [使用最適化Forms編輯器建立Headless最適化表單](create-a-headless-adaptive-form.md)
-+ 開發人員參考資料 {#developer-reference}
-   + [Headless調適型表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
++ 開發人員參考{#developer-reference}
+   + [Headless最適化表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [常見問題](faq.md)
 + [疑難排解](troubleshooting.md)
 + [適用於Headless最適化表單的Microsoft Visual Studio Code擴充功能](visual-studio-code-extension-for-headless-adaptive-forms.md)

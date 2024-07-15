@@ -10,15 +10,15 @@ role: Admin, Developer
 level: Beginner, Intermediate
 topic-tags: develop
 hide: true
-exl-id: 46df943c-0622-4b3b-a802-85c39ac6a734
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
+source-git-commit: 999c3d092d03d7a82363bc94ce79ceb33bf0df7e
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 62%
+source-wordcount: '2130'
+ht-degree: 58%
 
 ---
 
-# 使用核心元件和 Headless 建置吸引人的表單 AEM 6.5 Forms上的最適化Forms {#build-engaging-forms-using-core-components-and-headless}
+# 在AEM 6.5 Forms上使用核心元件和Headless最適化Forms打造引人入勝的Forms {#build-engaging-forms-using-core-components-and-headless}
 
 ## 實驗室概觀 {#lab-overview}
 
@@ -38,13 +38,13 @@ ht-degree: 62%
 
 若要在實驗室中使用此手勢：
 
-* 安裝 [最新版本的Git](https://git-scm.com/downloads). 如果您是Git的新手，請參閱 [安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* 安裝[最新版本的Git](https://git-scm.com/downloads)。 若您為Git的新手，請參閱[安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
 
-* 安裝 [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，請參閱 [如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* 安裝[Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，請參閱[如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)。
 
-* [啟用Headless最適化Forms](enable-headless-adaptive-forms-and-core-components.md) 在您的AEM 6.5 Forms環境中。
+* [在您的AEM 6.5 Forms環境中，啟用Headless最適化Forms](enable-headless-adaptive-forms-and-core-components.md)。
 
-* 安裝 [Microsoft Visual Studio Code](https://code.visualstudio.com/download) 或任何純文字編輯器。 檔案中的範例使用Microsoft Visual Studio Code。
+* 安裝[Microsoft Visual Studio Code](https://code.visualstudio.com/download)或任何純文字編輯器。 檔案中的範例使用Microsoft Visual Studio Code。
 
 ## 第一課 {#lesson-1}
 
@@ -58,8 +58,8 @@ ht-degree: 62%
 
 ### 練習 {#lesson-1-excercise}
 
-1. 打開瀏覽器並輸入 編寫環境的 URL。例如：
-   [https://localhost:4502](https://localhost:4502).
+1. 開啟瀏覽器，然後輸入作者環境的URL。 例如：
+   [https://localhost:4502](https://localhost:4502)。
 
 1. 登入後，瀏覽至 AEM Forms UI。點擊 **Forms**。
 
@@ -97,20 +97,20 @@ ht-degree: 62%
 
 1. 撰寫最適化表單：
 
-   1. 在第1課使用的瀏覽器標籤中，導覽至AEM Forms網頁介面並導覽至 **Forms** > **Forms與檔案**.
+   1. 在第1課使用的瀏覽器標籤中，導覽至AEM Forms網頁介面，並導覽至&#x200B;**Forms** > **Forms和檔案**。
 
    1. 點選 **Create** 並選擇 Adaptive Form。
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
-   1. 選取 **核心元件空白** 從範本選取畫面選取範本，如下所示，然後按一下 **下一個**.
+   1. 從範本選取畫面選取&#x200B;**Blank with Core Components**&#x200B;範本，如下所示，然後按一下&#x200B;**下一步**。
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
-   1. 指定 `Contact us` 作為 **標題** 表單的。 確保 **名稱** 表單的 `contact-us`.
+   1. 指定`Contact us`作為表單的&#x200B;**標題**。 確定表單的&#x200B;**名稱**&#x200B;是`contact-us`。
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. 按一下「**建立**」。隨即顯示對話方塊。
 
-   1. 在對話方塊中，按一下 **編輯**. 表單會在最適化表單編輯器中開啟。 關閉任何與偏好設定或資訊相關的快顯視窗或對話框。
+   1. 在對話方塊中，按一下&#x200B;**編輯**。 表單會在最適化表單編輯器中開啟。 關閉任何快顯視窗或對話方塊，以取得偏好設定或資訊。
 
    1. 開啟「元件」瀏覽器，並將「面板」元件拖放至畫面中央。
 
@@ -121,15 +121,15 @@ ht-degree: 62%
       ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
 
 
-   1. 開啟「內容瀏覽器」，按一下「指南容器」屬性圖示，然後開啟 **提交** 標籤。 選取 **提交至REST端點** 提交動作，選取 **啟用POST請求** 選項，並在的課程2中指定建立的REST端點 **POST請求的URL** 文字方塊，然後按一下 **完成** 圖示。
+   1. 開啟「內容瀏覽器」，按一下「指南容器」屬性圖示，然後開啟「**提交**」標籤。 選取&#x200B;**提交至REST端點**&#x200B;提交動作，選取&#x200B;**啟用POST要求**&#x200B;選項，並在&#x200B;**POST要求的URL**&#x200B;文字方塊中指定第2課建立的REST端點，然後按一下&#x200B;**完成**&#x200B;圖示。
 
       ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
 
-1. 發佈最適化表單：
+1. Publish最適化表單：
 
-   1. 開啟AEM UI，導覽至 **Forms** > **Forms與檔案**. 選取上一步建立的表單，然後按一下 **發佈**.
+   1. 開啟AEM UI，導覽至&#x200B;**Forms** > **Forms和檔案**。 選取上一步建立的表單，然後按一下&#x200B;**Publish**。
 
-   1. 在發佈資產對話方塊中，按一下 **發佈**. 成功訊息隨即顯示。
+   1. 在Publish Assets對話方塊中，按一下&#x200B;**Publish**。 成功訊息隨即顯示。
 
 ## 第三課
 
@@ -149,13 +149,13 @@ ht-degree: 62%
 
    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
 
-1. 在命令提示字元中，使用以下命令瀏覽到 `c:\git` 資料夾.
+1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
    ```Shell
    cd git
    ```
 
-   如果資料夾不存在，請使用 `md git` 命令來建立它。
+   如果資料夾不存在，請使用`md git`命令來建立它。
 
 1. 使用以下命令複製主題前端程式碼：
 
@@ -176,7 +176,7 @@ ht-degree: 62%
 
    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
-1. 重新命名 `env_template` 檔案轉換為.env。  要重新命名檔案，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
+1. 將`env_template`檔案重新命名為.env。  要重新命名檔案，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
 
    ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
 
@@ -186,7 +186,7 @@ ht-degree: 62%
 
 1. 為 .env 檔案中的變數設定以下值並儲存檔案：
 
-   * **AEM_URL**：指定URL **發佈** 執行個體。 例如 `https://localhost:4502/`
+   * **AEM_URL**：指定&#x200B;**發佈**&#x200B;執行個體的網址。 例如 `https://localhost:4502/`
 
    * **AEM_ADAPTIVE_FORM**：指定表單的名稱。 例如，`contact-us`。
 
@@ -261,7 +261,7 @@ ht-degree: 62%
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. 在命令提示字元中，使用以下命令瀏覽到 `c:\git` 資料夾.
+1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
    ```Shell
    cd git
@@ -302,7 +302,7 @@ ht-degree: 62%
 
    * **AEM_URL**：指定發佈環境的URL。 例如 `https://localhost:4503/`
 
-   * **AEM_FORM_PATH**：指定在上一課程建立的最適化表單路徑。 例如 `/content/forms/af/contact-us/`
+   * **AEM_FORM_PATH**：指定在上一課中建立的最適化表單的路徑。 例如 `/content/forms/af/contact-us/`
 
    </br>
 
@@ -336,25 +336,25 @@ ht-degree: 62%
 
 讓我們以業務使用者的身份對伺服器上的表單進行變更，並自動查看反映在無頭表單中的變更。
 
-1. 在瀏覽器中打開 AEM Forms 管理介面。例如， [http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments).
+1. 在瀏覽器中打開 AEM Forms 管理介面。例如，[http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)。
 
-1. 選取 **聯絡我們** 表單並按一下 **編輯。** 這會在最適化Forms編輯器中開啟表單。
+1. 選取&#x200B;**連絡我們**&#x200B;表單，然後按一下&#x200B;**編輯。**&#x200B;它會在最適化Forms編輯器中開啟表單。
 
 
-1. 選取 **聯絡電話** 欄位並按一下 **編輯圖示（鉛筆圖示）** （在工具列中）。 如果您工具列沒有跳出來，請點擊右上角的&#x200B;**編輯**&#x200B;按鈕切換到編輯模式，然後點擊左上角的 **預覽**&#x200B;按鈕。
+1. 選取&#x200B;**聯絡電話**&#x200B;欄位，然後按一下工具列中的&#x200B;**編輯圖示（鉛筆圖示）**。 如果您工具列沒有跳出來，請點擊右上角的&#x200B;**編輯**&#x200B;按鈕切換到編輯模式，然後點擊左上角的 **預覽**&#x200B;按鈕。
 
    ![](/help/assets/change-field-title.png){width="50%" align="left"}
 
-1. 將標籤變更為 **行動電話號碼**. 點擊表單中的任何空白區域將儲存對表單所做的變更。
+1. 將標籤變更為&#x200B;**行動電話號碼**。 點擊表單中的任何空白區域將儲存對表單所做的變更。
 
 讓我們發佈更新的表單以將變更散佈到發佈環境。
 
-1. 在AEM Forms管理介面標籤中，選取聯絡我們表單，然後按一下 **取消發佈**. 如果您沒有看到&#x200B;**取消發佈**&#x200B;按鈕，請跳至第 3 步直接發佈變更。
+1. 在AEM Forms管理介面標籤中，選取與我們聯絡表單，然後按一下&#x200B;**取消發佈**。 如果您沒有看到&#x200B;**取消發佈**&#x200B;按鈕，請跳至第 3 步直接發佈變更。
 
 
 1. 點擊&#x200B;**取消發佈**。在相應的對話框中點擊&#x200B;**關閉**。
 
-1. 瀏覽器重新整理後，選取「與我們連絡」表單，然後按一下 **發佈**.
+1. 瀏覽器重新整理後，請選取與我們連絡的表單，然後按一下&#x200B;**Publish**。
 
 
 1. 點擊&#x200B;**發佈**。在相應的對話框中點擊&#x200B;**關閉**。
@@ -386,7 +386,7 @@ ht-degree: 62%
 
    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
 
-1. 在命令提示字元中，使用以下命令瀏覽到 `c:\git` 資料夾.
+1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
    ```Shell
    cd git
@@ -426,9 +426,9 @@ ht-degree: 62%
 
 1. 為 .env 檔案中的變數設定以下值。更新變數後，儲存檔案。使用 **CTRL + S** 切換組合以儲存檔案。
 
-   * **AEM_URL**：指定發佈環境的URL。 例如， [https://localhost:4503](https://localhost:4503)
+   * **AEM_URL**：指定發佈環境的URL。 例如，[https://localhost:4503](https://localhost:4503)
 
-   * **AEM_FORM_PATH**：指定在上一課程建立的最適化表單路徑。 例如，/content/forms/af/contact-us/
+   * **AEM_FORM_PATH**：指定在上一課中建立的最適化表單的路徑。 例如，/content/forms/af/contact-us/
 
 
 1. 打開命令視窗，確認您位於 **react-starter-kit-aem-headless-forms** 目錄中，然後執行以下命令：
@@ -447,7 +447,7 @@ ht-degree: 62%
 
    ![](/help/assets/lab65-mui-starter-kit-start.png)
 
-   該命令會啟動本機開發伺服器，並使用 Google Material UI 前端庫以無頭方式呈現從 AEM 擷取的表單定義。
+   該命令會啟動本機開發伺服器，並使用Google素材UI前端程式庫，以Headless方式呈現從AEM擷取的表單定義。
 
    >[!NOTE]
    >

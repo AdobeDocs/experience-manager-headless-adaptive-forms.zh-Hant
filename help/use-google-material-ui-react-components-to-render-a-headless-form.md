@@ -10,7 +10,7 @@ hide: false
 exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 在本教學課程中，Google素材UI元件用於示範如何使用自訂React元件來轉譯Headless調適型表單。 不過，此程式庫並無限制，您可自由使用任何React元件程式庫或開發自己的自訂元件。
 
-到本文結束時， _聯絡我們_ 表單建立於 [使用入門套件建立及發佈Headless表單](create-and-publish-a-headless-form.md) 文章將轉換為以下內容：
+根據本文的結論，在[使用入門套件](create-and-publish-a-headless-form.md)文章建立並發佈Headless表單中建立的&#x200B;_聯絡我們_&#x200B;表單將轉換為以下內容：
 
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ## 1.安裝Google資料UI
 
-依預設，入門套件會使用 [Adobe光譜](https://spectrum.adobe.com/) 元件。 讓我們設定為使用 [Google的素材UI](https://mui.com/)：
+依預設，入門套件使用[Adobe的Spectrum](https://spectrum.adobe.com/)元件。 讓我們設定為使用[Google的素材UI](https://mui.com/)：
 
-1. 確認入門套件未執行。 若要停止入門套件，請開啟您的終端機，導覽至 **react-starter-kit-aem-headless-forms**，然後按Ctrl-C (在Windows、Mac和Linux上相同)。
+1. 確認入門套件未執行。 若要停止入門套件，請開啟您的終端機，導覽至&#x200B;**react-starter-kit-aem-headless-forms**，然後按Ctrl-C (在Windows、Mac和Linux上相同)。
 
    請勿嘗試關閉終端機。 關閉終端機並不會停止入門套件。
 
@@ -54,24 +54,24 @@ ht-degree: 0%
 
 ## 2.建立自訂React元件
 
-讓我們建立自訂元件，以取代預設值 [文字輸入](https://spectrum.adobe.com/page/text-field/) 元件與 [Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/) 元件。
+讓我們建立自訂元件，該元件以[Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/)元件取代預設的[文字輸入](https://spectrum.adobe.com/page/text-field/)元件。
 
-每個元件型別都需要個別元件([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) 或：type)。 例如，在您於上一節建立的「聯絡我們」表單中，輸入的「名稱」、「電子郵件」和「電話」欄位 `text-input` ([fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def))且訊息欄位的型別為 `multiline-input` ([&quot;fieldType&quot;： &quot;multiline-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input))。
-
-
-讓我們建立自訂元件，覆蓋所有使用 [fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) 屬性，具有 [原物料UI文字欄位](https://mui.com/material-ui/react-text-field/) 元件。
+Headless表單定義中使用的每個元件型別（[fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)或：type）都需要個別元件。 例如，在您在上一節建立的「聯絡我們」表單中，型別為`text-input` ([fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def))的「名稱」、「電子郵件」和「電話」欄位以及訊息欄位的型別為`multiline-input` ([&quot;fieldType&quot;： &quot;multiline-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/reference-json-properties-fieldtype--multiline-input))。
 
 
-建立自訂元件並將自訂元件與對應 [fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) 屬性：
-
-1. 開啟 **react-starter-kit-aem-headless-forms** 在程式碼編輯器中的目錄並導覽至 `\react-starter-kit-aem-headless-forms\src\components`.
+讓我們建立自訂元件，以覆蓋使用[fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)屬性和[原物料UI文字欄位](https://mui.com/material-ui/react-text-field/)元件的所有表單欄位。
 
 
-1. 建立 **滑桿** 或 **RTF** 資料夾，並將複製的資料夾重新命名為 **materialtextfield**. Slider和RTF是啟動應用程式中可用的兩個範例自訂元件。 您可以使用這些專案建立自己的自訂元件。
+若要建立自訂元件，並對應具有[fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)屬性的自訂元件：
 
-   ![VSCode中的materialtextfield自訂元件](/help/assets/richtext-custom-component-in-vscode.png)
+1. 在程式碼編輯器中開啟&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;目錄，並導覽至`\react-starter-kit-aem-headless-forms\src\components`。
 
-1. 開啟 `\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx` 檔案，並將現有程式碼取代為下列程式碼。 此程式碼會傳回並轉譯 [Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/) 元件。
+
+1. 建立&#x200B;**滑桿**&#x200B;或&#x200B;**RTF**&#x200B;資料夾的復本，並將複製的資料夾重新命名為&#x200B;**materialtextfield**。 Slider和RTF是啟動應用程式中可用的兩個範例自訂元件。 您可以使用這些專案建立自己的自訂元件。
+
+   ![VSCode](/help/assets/richtext-custom-component-in-vscode.png)中的materialtextfield自訂元件
+
+1. 開啟`\react-starter-kit-aem-headless-forms\src\components\materialtextfield\index.tsx`檔案，並將現有程式碼取代為下列程式碼。 此程式碼會傳回並轉譯[Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/)元件。
 
 ```JavaScript
  
@@ -102,31 +102,31 @@ ht-degree: 0%
 ```
 
 
-此 `state.visible` 零件會檢查元件是否設定為可見。 如果是，則會使用擷取並顯示欄位標籤 `richTextString(state?.label?.value)`.
+`state.visible`零件會檢查元件是否設定為可見。 如果是，會使用`richTextString(state?.label?.value)`擷取並顯示欄位標籤。
 
 ![](/help/assets/material-text-field.png)
 
 
-您的自訂元件 `materialtextfield` 準備就緒。 讓我們設定此自訂元件來取代的所有例項  [fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def) Google素材UI文字欄位。
+您的自訂元件`materialtextfield`已就緒。 讓我們設定此自訂元件，以Google素材UI文字欄位取代[fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)的所有執行個體。
 
 ## 3.對應具有Headless表單欄位的自訂元件
 
-使用協力廠商程式庫元件來轉譯表單欄位的程式稱為對應。 您對應每個([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input))至第三方程式庫的對應元件。
+使用協力廠商程式庫元件來轉譯表單欄位的程式稱為對應。 您將每個([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input))對應到協力廠商程式庫的對應元件。
 
-所有與對應相關的資訊都會新增至 `mappings.ts` 檔案。 此 `...mappings` 中的陳述式 `mappings.ts` 檔案是指預設的對應，其會覆蓋([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input) 或：type)，使用 [Adobe光譜](https://spectrum.adobe.com/page/text-field/) 元件。
+所有對應相關資訊都已新增至`mappings.ts`檔案。 `mappings.ts`檔案中的`...mappings`陳述式參考預設對應，其會以[Adobe頻譜](https://spectrum.adobe.com/page/text-field/)元件覆蓋（[fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)或：type）。
 
-為新增對應  `materialtextfield` 元件，建立於最後一個步驟：
+若要為`materialtextfield`元件新增對應（在上一步中建立）：
 
-1. 開啟 `mappings.ts` 檔案。
+1. 開啟`mappings.ts`檔案。
 
-1. 新增下列匯入陳述式以包含 `materialtextfield` 元件至 `mappings.ts` 檔案：
+1. 新增下列匯入陳述式，將`materialtextfield`元件加入`mappings.ts`檔案：
 
 
    ```JavaScript
        import MaterialtextField from "../components/materialtextfield";
    ```
 
-1. 新增下列陳述式以對應 `text-input` 與materialtextfield元件搭配使用。
+1. 新增下列陳述式，以將`text-input`與materialtextfield元件對應。
 
 
    ```JavaScript
@@ -147,7 +147,7 @@ ht-degree: 0%
         export default customMappings;
    ```
 
-1. 儲存並執行應用程式。 表單的前三個欄位會使用來轉譯 [Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/)：
+1. 儲存並執行應用程式。 表單的前三個欄位會使用[Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/)轉譯：
 
    ![](assets/material-text-field-form-rendetion.png)
 
@@ -160,6 +160,6 @@ ht-degree: 0%
 
 您已成功轉譯包含使用Google材質UI之自訂元件的表單。 您是否嘗試透過按一下提交按鈕(與對應的Google原物料UI元件對應)來提交表單？ 如果沒有，請繼續嘗試。
 
-表單會將資料提交至任何資料來源嗎？ 否? 別擔心。 這是因為您的表單未設定為與執行階段程式庫通訊。
+表單會將資料提交至任何資料來源嗎？ 沒有？ 別擔心。 這是因為您的表單未設定為與執行階段程式庫通訊。
 
 如何設定表單以與其通訊？ 我們即將推出文章，詳細說明所有內容。 敬請期待！

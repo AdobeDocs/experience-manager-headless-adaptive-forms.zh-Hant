@@ -32,13 +32,13 @@ ht-degree: 85%
 
 若要在實驗室中使用此手勢：
 
-* 安裝 [最新版本的Git](https://git-scm.com/downloads). 如果您是Git的新手，請參閱 [安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+* 安裝[最新版本的Git](https://git-scm.com/downloads)。 若您為Git的新手，請參閱[安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
 
-* 安裝 [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，請參閱 [如何安裝Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
+* 安裝[Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，請參閱[如何安裝Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)。
 
-* [啟用最適化Forms核心元件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 適合您的AEM Formsas a Cloud Service環境。
+* [為您的Formsas a Cloud Service環境啟用最適化AEM Forms核心元件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)。
 
-* 安裝 [Microsoft Visual Studio Code](https://code.visualstudio.com/download) 或任何純文字編輯器。 檔案中的範例使用Microsoft Visual Studio Code。
+* 安裝[Microsoft Visual Studio Code](https://code.visualstudio.com/download)或任何純文字編輯器。 檔案中的範例使用Microsoft Visual Studio Code。
 
 
 
@@ -60,7 +60,7 @@ ht-degree: 85%
 1. 登入Cloud Service作者環境。
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1. 若要導覽至AEM Forms UI，請按一下 **Forms > Forms與檔案**.
+1. 若要導覽至AEM Forms UI，請按一下&#x200B;**Forms > Forms和檔案**。
 
 
 
@@ -103,12 +103,12 @@ ht-degree: 85%
    1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**主題，如下圖：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 按一下 **提交** 標籤並選取 **提交至REST端點** 卡片，並在中指定公用bin **POST請求的URL** 欄位，如下所示：
+   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**欄位的公用Bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-   1. 按一下&#x200B;**建立**。為表單指定名稱和標題。例如， **註冊**. 按一下&#x200B;**建立**。
+   1. 按一下&#x200B;**建立**。為表單指定名稱和標題。例如，**註冊**。 按一下&#x200B;**建立**。
 
-   1. 最適化表單編輯器打開。關閉任何與偏好設定或資訊相關的快顯視窗或對話框。按一下左側邊欄上的元件瀏覽器，然後新增 **頁首** 和 **頁尾** 元件分別置於空白表單的頂端和底部。
+   1. 最適化表單編輯器打開。關閉任何與偏好設定或資訊相關的快顯視窗或對話框。按一下左側邊欄上的元件瀏覽器，然後分別將&#x200B;**Header**&#x200B;和&#x200B;**Footer**元件新增至空白表單的頂端和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
@@ -138,13 +138,13 @@ ht-degree: 85%
 
 1. 新增互動性以使用規則表單：
 
-   1. 按一下 **勾選方塊即可享受5%優惠** 元件。 在選項工具列上，按一下「規則」圖示。 「規則編輯器」選項隨即開啟。
+   1. 按一下&#x200B;**核取方塊以接收5%折扣**&#x200B;元件。 在選項工具列上，按一下「規則」圖示。 「規則編輯器」選項隨即開啟。
 
-   1. 建立規則，當 **勾選方塊即可享受5%優惠** 選項，則停用套用信用卡的選項。
+   1. 建立規則，當選取&#x200B;**勾選接收5%折扣**&#x200B;選項的方塊時，套用信用卡的選項會停用。
 
-1. 發佈表單。
+1. Publish表單。
 
-   1. 開啟AEM Forms管理介面，例如 `https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`，然後選取表單。
+   1. 開啟AEM Forms管理介面，例如`https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments`，然後選取表單。
 
    1. 點擊&#x200B;**發佈**。
 
@@ -222,7 +222,7 @@ ht-degree: 85%
 
    >[!NOTE]
    > 若要建立本機使用者：
-   > 前往 `AEM Home` > `Tools` > `Security` > `Users`
+   > 前往`AEM Home` > `Tools` > `Security` > `Users`
    > 確定使用者是forms-users群組的成員。
 
 
@@ -236,7 +236,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   > * 如果您收到訊息，要求透過更新npm `npm notice Run npm nstall -g npm@9.6.0` 命令，忽略訊息。
+   > * 如果您收到要求透過`npm notice Run npm nstall -g npm@9.6.0`命令更新npm的訊息，請忽略該訊息。
    > * 除非活頁簿中有指示，否則不要執行其他 npm 命令。
 
 1. 現在執行以下命令來預覽表單。
@@ -247,9 +247,9 @@ ht-degree: 85%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   執行上述命令後，請等待 `webpack compiled` 訊息後，您會重新導向至AEM登入頁面。
+   執行上述命令後，請等候`webpack compiled`訊息，系統會將您重新導向至AEM登入頁面。
 
-1. 按一下 **本機登入（僅限管理員工作）** 在AEM登入頁面上。
+1. 在AEM登入頁面上按一下&#x200B;**本機登入（僅限管理員工作）**。
 1. 輸入已建立本機使用者的認證，表單就會顯示在瀏覽器標籤中。
 
    >[!NOTE]
@@ -382,7 +382,7 @@ ht-degree: 85%
 
 1. 在瀏覽器中打開 AEM Forms 管理介面。例如 [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments)。
 
-1. 選取 **contact** 表單並按一下 **編輯。**&#x200B;這會在最適化表單編輯器中打開表單。
+1. 選取&#x200B;**contacts**&#x200B;表單，然後按一下&#x200B;**編輯。**&#x200B;這會在最適化表單編輯器中打開表單。
 
 
 1. 選取&#x200B;**電話號碼**&#x200B;欄位，然後點選工具列中的&#x200B;**編輯圖示 (鉛筆圖示)**。如果您工具列沒有跳出來，請點擊右上角的&#x200B;**編輯**&#x200B;按鈕切換到編輯模式，然後點擊左上角的 **預覽**&#x200B;按鈕。

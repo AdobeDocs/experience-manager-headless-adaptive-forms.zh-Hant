@@ -11,7 +11,7 @@ hide: false
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,12 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
 ## 先決條件
 
-* 下載並安裝 [Microsoft Visual Studio Code 1.62.0或更新版本](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version). 如果您已安裝舊版或未安裝任何版本，請從下載最新版本 [Microsoft網站](https://code.visualstudio.com/docs/setup/setup-overview). 若要從Apple macOS上的命令列使用Visual Studio，請參閱 [從命令列啟動](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line).
-* 下載 [調適型表單產生器擴充功能](/help/assets/adaptive-form-builder-0.12.0.vsix).
+* 下載並安裝[Microsoft Visual Studio Code 1.62.0或更新版本](https://code.visualstudio.com/docs/supporting/FAQ#_how-do-i-find-the-version)。 如果您已安裝舊版或未安裝版本，請從[Microsoft網站](https://code.visualstudio.com/docs/setup/setup-overview)下載最新版本。 若要從Apple macOS上的命令列使用Visual Studio，請參閱[從命令列啟動](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)。
+* 下載[最適化表單產生器擴充功能](/help/assets/adaptive-form-builder-0.12.0.vsix)。
 
 ## 安裝擴充功能
 
-1. 開啟命令提示字元並瀏覽至包含已下載副檔名檔案的目錄， *adaptive-form-builder-[版本].vsix*.
+1. 開啟命令提示字元並瀏覽至包含已下載擴充功能檔案&#x200B;*adaptive-form-builder-[version].vsix*&#x200B;的目錄。
 
 1. 執行以下命令來安裝擴充功能：
 
@@ -48,7 +48,7 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
 
    <br>
 
-   ![安裝擴充功能](/help/assets/install-extension.png)
+   ![正在安裝擴充功能](/help/assets/install-extension.png)
 
 
-   如需.vsix檔案的相關資訊，請參閱 [Microsoft Visual Studio程式碼說明](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix).
+   如需.vsix檔案的相關資訊，請參閱[Microsoft Visual Studio Code說明](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)。

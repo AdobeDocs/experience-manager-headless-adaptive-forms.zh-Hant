@@ -31,4 +31,4 @@ Raya Tan是這個以自然美景和旅遊經濟蓬勃發展而聞名的國家的
 
 遊客最常使用的表格是「聯絡我們」表格，用於詢問各種問題。 因此，外部部門已選擇開始使用此表單實施Headless調適型表單方法。 本教學課程將引導您使用此新架構建立「聯絡我們」表單。 最終結果將如下所示：
 
-![聯絡美國Headless最適化表單](assets/contact-us-headless-adaptive-forms.png)
+![連絡我們Headless最適化表單](assets/contact-us-headless-adaptive-forms.png)

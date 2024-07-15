@@ -5,8 +5,8 @@ hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
 source-git-commit: 41286ff4303e0f4d404deb113fd59d1499768da5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 2%
+source-wordcount: '686'
+ht-degree: 1%
 
 ---
 
@@ -41,16 +41,16 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 若要安裝AEM SDK，您的本機電腦必須符合下列最低需求：
 
 * [Java Development Kit 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=software-type%3Atooling&amp;fulltext=Oracle%7E+JDK%7E+11%7E&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p=list&amp;p.offset=limit&amp;p.offset=0&amp;p.limit=14444)
-* [最新版本的Git](https://git-scm.com/downloads). 如果您是Git的新手，請參閱 [安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-* [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，請參閱 [如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
-* [Maven 3.6或更新版本](https://maven.apache.org/download.cgi). 如果您是Maven的新手，請參閱 [安裝Apache Maven](https://maven.apache.org/install.html).
+* [最新版本的Git](https://git-scm.com/downloads)。 若您為Git的新手，請參閱[安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
+* [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，請參閱[如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)。
+* [Maven 3.6或更新版本](https://maven.apache.org/download.cgi)。 如果您是Maven的新手，請參閱[安裝Apache Maven](https://maven.apache.org/install.html)。
 
 ## 設定開發環境 {#headless-adaptive-forms-procedure-to-setup-development-environment}
 
 若要設定新的本機開發環境，並使用它來開發和測試Headless調適型表單：
 
-1. [設定AEMas a Cloud ServiceSDK](#setup-author-instance).
-1. [將AEM Forms封存(AEM FormsCloud Service附加元件)新增至AEM SDK](#add-forms-archive).
+1. [設定AEM as a Cloud Service SDK](#setup-author-instance)。
+1. [將AEM Forms封存(AEM FormsCloud Service附加元件)新增至AEM SDK](#add-forms-archive)。
 
 <!--
 
@@ -59,11 +59,11 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 
 -->
 
-### 1.設定AEMas a Cloud ServiceSDK {#setup-author-instance}
+### 1.設定AEM as a Cloud Service SDK {#setup-author-instance}
 
-AEMas a Cloud ServiceSDK (AEM SDK)為開發人員提供本機體驗，以便建立和測試Headless最適化表單。 您可以使用AEMas a Cloud ServiceSDK來建立和預覽Headless最適化表單，好讓您在本機執行與開發相關的大多數驗證。 若要設定本機編寫執行個體：
+AEM as a Cloud Service SDK (AEM SDK)為開發人員提供本機體驗，以便建立和測試Headless最適化表單。 您可以使用AEM as a Cloud Service SDK建立及預覽Headless調適型表單，好讓您在本機執行與開發相關的大多數驗證。 若要設定本機編寫執行個體：
 
-1. [下載](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html) 最新 [!DNL Adobe Experience Manager] as a Cloud ServiceSDK。 使用發佈日期欄來排序並輕鬆找出最新的SDK。
+1. [下載](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html)最新的[!DNL Adobe Experience Manager]as a Cloud ServiceSDK。 使用發佈日期欄來排序並輕鬆找出最新的SDK。
 其格式為.zip。 支援的版本為aem-sdk-2022.7.8085.20220725T140323Z-220700.zip和更新版本。
 
    ![從軟體發佈入口網站下載AEM Cloud Service SDK](assets/software-distribution.png)
@@ -71,14 +71,14 @@ AEMas a Cloud ServiceSDK (AEM SDK)為開發人員提供本機體驗，以便建�
 
 1. 將下載的.zip檔案解壓縮至本機電腦上的目錄。
 1. 在本機電腦上建立目錄，作為編寫執行個體的安裝位置。 例如，`~/aem-sdk/author`。
-1. 將解壓縮的SDK檔案中的.jar檔案複製到安裝位置，並將檔案重新命名為 `aem-author-p4502.jar`. 此 `p4502` 檔案名稱中的字串指定要使用的連線埠號碼。 您也可以指定不同的連線埠號碼。
+1. 將解壓縮的SDK檔案中的.jar檔案複製到安裝位置，並將檔案重新命名為`aem-author-p4502.jar`。 檔案名稱中的`p4502`字串指定要使用的連線埠號碼。 您也可以指定不同的連線埠號碼。
 
    >[!NOTE]
    >
-   > 請勿連按兩下.jar檔案以啟動它。 這會導致 [錯誤](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click).
+   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click)。
 
 1. 開啟命令提示字元：
-   * 在Windows上，使用 **以管理員身分執行** 在提升許可權模式中開啟命令提示字元的選項。
+   * 在Windows上，使用&#x200B;**以系統管理員身分執行**&#x200B;選項以提升許可權模式開啟命令提示字元。
    * 在Linux上，請確定您以root使用者的身分開啟終端機視窗。
 
 1. 導覽至包含複製的.jar檔案的安裝位置，然後執行下列命令：
@@ -87,26 +87,26 @@ AEMas a Cloud ServiceSDK (AEM SDK)為開發人員提供本機體驗，以便建�
 
    ![從軟體發佈入口網站下載AEM Cloud Service SDK](assets/install-sdk.png)
 
-   * 此 `-r prerelease` switch只會啟用發行前和限量發行計畫所提供的功能。
-   * 您可以使用 `admin` 作為本機開發的使用者名稱和密碼，以降低認知負載。
+   * `-r prerelease`切換引數只會啟用發行前和限量發行程式中才有的功能。
+   * 您可以使用`admin`作為本機開發的使用者名稱和密碼，以減少認知負載。
 
-   AEM啟動後，登入頁面會在網頁瀏覽器中開啟。 您也可以在地址開啟AEM SDK執行個體的登入頁面 `http://localhost:<port>` 在網頁瀏覽器中。 例如， [http://localhost:4502](http://localhost:4502).
+   AEM啟動後，登入頁面會在網頁瀏覽器中開啟。 您也可以在網頁瀏覽器中開啟位址`http://localhost:<port>`的AEM SDK執行個體的登入頁面。 例如，[http://localhost:4502](http://localhost:4502)。
 
-1. 登入您的Author例項。 點選 ![說明](/help/assets/Help-icon.svg) 圖示，點選「關於Adobe Experience Manager」，並確認版本號碼包含「發行前」後置詞。
+1. 登入您的Author例項。 點選![說明](/help/assets/Help-icon.svg)圖示，點選「關於Adobe Experience Manager」，並確定版本號碼包含「發行前」後置字元。
 
    ![說明](/help/assets/prerelease.png)
 
-如果您沒有看到PRERELEASE後置字元，請停止伺服器，刪除 `[AEM SDK installation]/crx-quickstart folder`，並使用重新啟動AEM SDK .jar檔案 `-r prerelease` 開關。 如需更多選項，請參閱 [疑難排除](/help/troubleshooting.md).
+如果您沒有看到PRERELEASE後修正，請停止伺服器、刪除`[AEM SDK installation]/crx-quickstart folder`，然後使用`-r prerelease`引數重新啟動AEM SDK .jar檔案。 如需更多選項，請參閱[疑難排解](/help/troubleshooting.md)。
 
 ### 2.將AEM Forms封存(AEM FormsCloud Service附加元件)新增至AEM SDK {#add-forms-archive}
 
 AEM Formsas a Cloud Service功能封存(AEM FormsCloud Service附加元件)提供在本機開發環境中建立Headless最適化表單的工具。 若要安裝功能封存：
 
-1. 下載並解壓縮最新 [!DNL AEM Forms] 功能封存(AEM Forms附加元件)來源 [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=20). 使用發佈日期欄來排序並輕鬆找出最新的SDK。 支援的版本為aem-forms-addon-2022.07.06.02-220600和更新版本。
+1. 從[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=20)下載並解壓縮最新的[!DNL AEM Forms]功能封存(AEM Forms附加元件)。 使用發佈日期欄來排序並輕鬆找出最新的SDK。 支援的版本為aem-forms-addon-2022.07.06.02-220600和更新版本。
 
 1. 導覽至crx-quickstart/install目錄。 如果資料夾不存在，請建立它。
 1. 停止您的AEM SDK執行個體。 您可以終止執行AEM SDK執行個體以停止AEM的命令提示字元視窗。
-1. 複製 [!DNL AEM Forms] 附加功能封存（從檔案）， `aem-forms-addon-<version>.far`，已在步驟1中解壓縮至安裝資料夾。
+1. 將[!DNL AEM Forms]附加功能封存檔從步驟1中擷取的檔案`aem-forms-addon-<version>.far`複製到安裝資料夾。
 1. 使用以下命令重新啟動AEM SDK執行個體：
 
    `java -jar aem-author-p4502.jar -r prerelease`

@@ -11,7 +11,7 @@ hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 -->
 
-## 是否需要Forms as a Cloud Service沙箱才能使用Headless調適型表單？
+## 是否需要Forms as a Cloud Service沙箱才能使用Headless最適化表單？
 
 您可以使用入門應用程式來開始開發和設定Headless最適化表單的樣式。 您需要Formsas a Cloud Service來託管及提供Headless最適化表單與後端表單功能。
 
@@ -40,21 +40,21 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## 我可以在哪裡預覽Headless最適化表單？ {#storybook-example}
 
-您可以使用入門應用程式來轉譯及預覽自訂Headless最適化表單。 您也可以修改 [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) 預覽Headless最適化表單的範例。
+您可以使用入門應用程式來轉譯及預覽自訂Headless最適化表單。 您也可以修改[故事簿](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction)範例以預覽Headless最適化表單。
 
 ![](/help/assets/storybook-example.png)
 
 ## 是否可以將Headless調適型表單與自訂架構搭配使用？
 
-Headless最適化表單是根據 [標準規格](/help/assets/Headless-Adaptive-Form-Specification.pdf). 您可以擴充規格以使用它來建置自訂元件。 例如，Chakra UI、Vue.js等元件。
+Headless最適化表單是以[標準規格](/help/assets/Headless-Adaptive-Form-Specification.pdf)為基礎。 您可以擴充規格以使用它來建置自訂元件。 例如，Chakra UI、Vue.js等元件。
 
 ## Headless調適型表單是否支援階層式欄位？
 
-在階層式欄位中，第二個欄位的內容取決於在第一個欄位中選擇的內容。 此 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&amp;args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！undefined；formJson.items[0].maximum：！undefined；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[1].fieldType：drop) 提供階層式欄位的範例。
+在階層式欄位中，第二個欄位的內容取決於在第一個欄位中選擇的內容。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&amp;args=formJson.items[0].fieldType：drop-down；formJson.items[0].minimum：！undefined；formJson.items[0].maximum：！undefined；formJson.items[0].label.value：Choose+number+of+options；formJson.items[0].enum[0]：1；formJson.items[0].enum[1]：2；formJson.items[1].fieldType：drop)提供階層式欄位的範例。
 
 ## Headless最適化表單是否允許使用個人化資料預先填寫表單？
 
-Headless最適化表單允許使用個人化資料預先填寫表單。 此 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) 提供如何預填Headless最適化表單的範例。
+Headless最適化表單允許使用個人化資料預先填寫表單。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)提供如何預填Headless最適化表單的範例。
 
 <!-- >
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?
