@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，常見問題
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -46,7 +46,7 @@ archetype project to deploy the finished Headless adaptive forms and correspondi
 
 ## 是否可以將Headless調適型表單與自訂架構搭配使用？
 
-Headless最適化表單是以[標準規格](/help/assets/Headless-Adaptive-Form-Specification.pdf)為基礎。 您可以擴充規格以使用它來建置自訂元件。 例如，Chakra UI、Vue.js等元件。
+Headless最適化表單是以[標準規格](/help/assets/headless-adaptive-forms-specification.pdf)為基礎。 您可以擴充規格以使用它來建置自訂元件。 例如，Chakra UI、Vue.js等元件。
 
 ## Headless調適型表單是否支援階層式欄位？
 
@@ -63,7 +63,7 @@ At this moment, you use the Adaptive Form Editor to specify the JSON structure a
 
 ## 我可以搭配AngularSPA使用Headless最適化表單嗎？
 
-您可以使用Web SDK將Headless最適化表單與Angular SPA整合。 它獨立於任何框架。 您可以使用React SDK作為參考。
+您可以使用網頁SDK整合Headless最適化表單與AngularSPA。 它獨立於任何框架。 您可以使用React SDK作為參考。
 
 <!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 

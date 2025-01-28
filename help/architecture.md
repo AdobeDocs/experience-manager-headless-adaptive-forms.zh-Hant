@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，架構
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 56ad9d8fefc4933847061ba6007ad367984bd2e0
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '918'
 ht-degree: 0%
 
 ---
@@ -68,13 +68,15 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 * **React繫結器**：提供掛接在控制器上，以將狀態新增至表單元件。 在預先填寫表單時也會很有幫助。
 * **元件庫**：它會提供React Spectrum元件，並在React Binder模組中使用鉤點，將狀態新增至這些元件。
 
-除了提供API來驗證套用至表單各個欄位的限制，Forms Web SDK還提供鉤點，以將Headless適用性表單連線至UI架構。 此外，它還為Headless調適型表單提供React&#x200B;轉譯器，以協助將Headless調適型表單整合到您的應用程式。 下列Web SDK元件可供使用：
+除了提供API來驗證套用至表單各個欄位的限制以外，Forms Web SDK還提供鉤點，以將Headless適用性表單連線至UI架構。 此外，它還為Headless調適型表單提供React&#x200B;轉譯器，以協助將Headless調適型表單整合到您的應用程式。 下列是Web SDK的可用元件：
 
 * **[@aemforms/af-react-components](https://www.npmjs.com/package/@aemforms/af-react-components)**
 * **[@aemforms/af-react-renderer](https://www.npmjs.com/package/@aemforms/af-react-renderer)**
 * **[@aemforms/af-core](https://www.npmjs.com/package/@aemforms/af-core)**
 
 所有這些元件都包含在AEM原型中。 當您為Headless調適型表單建立AEM Archetype 37或更新版本的專案時，專案中包含上述程式庫的最新版本。
+
+* **程式碼遊樂場**： [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是專為開發人員設計的互動式環境，可試驗、瞭解及測試Headless最適化Forms的功能。
 
 **已啟動的應用程式**：Adobe也已發行已啟動的應用程式，以協助您快速啟動Headless最適化表單。
 
@@ -86,8 +88,9 @@ Core-Components: It enables use to render an Adaptive Form using JSON structure.
 
 **Visual Studio程式碼擴充功能**： [Visual Studio程式碼擴充功能](visual-studio-code-extension-for-headless-adaptive-forms.md)可協助建立有效的JSON結構。 它為表單的JSON結構以及新增、刪除或重新命名JSON結構元件等常見功能提供IntelliSense支援和驗證。
 
-**最適化Forms 2.0版規格**：最適化Forms 2.0版規格提供定義Headless最適化表單可用的所有元件、限制和方法的詳細資訊。 規格以[PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf)格式提供。
-
 **HTTP與JavaScript API**： [HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)可讓您列出、擷取、驗證、提交、追蹤Headless表單的提交狀態。 [JS API](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/)可協助您將無頭式最適化表單與任何JavaScript式UI架構搭配使用。
 
 **JSON公式**：這是Forms運算式文法的實作，可協助您查詢JSON結構並建立Headless適用性表單的規則。 文法是試算表型函式和運運算元的組合，以及[JMESPath](https://jmespath.org/) JSON查詢語言。 您可以使用[遊樂場](https://opensource.adobe.com/json-formula/dist/index.html)來探索JSON公式語法和功能。
+
+**最適化Forms 2.0版規格**：最適化Forms 2.0版規格提供定義Headless最適化表單可用的所有元件、限制和方法的詳細資訊。 規格以[PDF](/help/assets/headless-adaptive-forms-specification.pdf)格式提供。
+

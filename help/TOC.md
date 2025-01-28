@@ -5,9 +5,9 @@ user-guide-description: Adobe Experience Manager Headless最適化表單的檔�
 feature: Adaptive Forms
 role: Developer
 hide: false
-source-git-commit: 6fbc8605163c5f5415cadf5c19c96e1f68a23841
+source-git-commit: c46ac28e490a09d6f563c4b5673d30a53c277a69
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '144'
 ht-degree: 4%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 4%
 + 建立Headless最適化表單{#authoring-headless-adaptive-forms}
    + [使用最適化Forms編輯器建立Headless最適化表單](create-a-headless-adaptive-form.md)
 + 開發人員參考{#developer-reference}
+   + [開發人員入口網站](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
+   + [代碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
    + [Headless最適化表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [常見問題](faq.md)
 + [疑難排解](troubleshooting.md)
