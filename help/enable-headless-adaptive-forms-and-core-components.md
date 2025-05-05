@@ -23,7 +23,7 @@ ht-degree: 13%
 
 在AEM 6.5 Forms環境中啟用Headless最適化Forms之前，
 
-* [升級至AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更新版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html)。
+* [升級至AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更新版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=zh-Hant)。
 
 * 安裝最新版的[Apache Maven](https://maven.apache.org/download.cgi)。
 

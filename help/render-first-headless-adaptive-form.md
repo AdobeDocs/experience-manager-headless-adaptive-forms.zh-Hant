@@ -47,7 +47,7 @@ Adobe Experience Manager Headless調適型表單讓這類組織能夠自由使�
 
 ### 1.建立及部署以AEM原型為基礎的專案 {#create-an-archetype-based-project}
 
-根據作業系統，執行以下命令以建立Experience Manager Formsas a Cloud Service專案。 使用原型版本37或更新版本。 請參閱[Archetype檔案](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html)以尋找最新版的Archetype。
+根據作業系統，執行以下命令以建立Experience Manager Formsas a Cloud Service專案。 使用原型版本37或更新版本。 請參閱[Archetype檔案](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html?lang=zh-Hant)以尋找最新版的Archetype。
 
 **Microsoft Windows**
 
@@ -125,7 +125,7 @@ Adobe Experience Manager Headless調適型表單讓這類組織能夠自由使�
    解決相依性並部署專案可能需要很長時間。 如果部署專案失敗，請參閱[疑難排解](troubleshooting.md)文章以瞭解常見問題及其解決方法。
 
 
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hant#coding-against-the-right-aem-version) article : -->
 
 
 ### 3.建立Headless最適化表單的JSON結構描述，並將其上傳至您的AEM SDK執行個體 {#create-add-json-representation-of-headless-adaptive-forms}
@@ -180,9 +180,9 @@ You can deploy the project to local development environment. It adds Headless Ad
 
     `mvn -PautoInstallPackage clean install`
 
-If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=en#building-and-installing).
+If you are on Windows, run the above with Administrative privileges (Run command prompt or [bash shell as an administrator](https://khushwantsehgal.wordpress.com/2022/06/29/check-if-git-bash-is-running-in-administrator-mode/)). For the complete list of commands, see [Building and Installing](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=zh-Hant#building-and-installing).
     
-<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=en#coding-against-the-right-aem-version) article : -->
+<!-- *  To learn how to deploy code to AEM as a Cloud Service, see the video in [Deploying to AEM as a Cloud Service]https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/deploying/overview.html?lang=zh-Hant#coding-against-the-right-aem-version) article : -->
 
 ### 4.根據帶有核心元件的空白範本建立最適化表單 {#create-adaptive-form-with-blank-with-core-components-template}
 

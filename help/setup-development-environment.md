@@ -75,7 +75,7 @@ AEM as a Cloud Service SDK (AEM SDK)為開發人員提供本機體驗，以便�
 
    >[!NOTE]
    >
-   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=en#troubleshooting-double-click)。
+   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime.html?lang=zh-Hant#troubleshooting-double-click)。
 
 1. 開啟命令提示字元：
    * 在Windows上，使用&#x200B;**以系統管理員身分執行**&#x200B;選項以提升許可權模式開啟命令提示字元。

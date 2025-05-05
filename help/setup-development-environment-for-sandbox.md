@@ -23,9 +23,9 @@ ht-degree: 0%
 
 * 在本機電腦上安裝[Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。 如果您是初次使用Node.js，請參閱[如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs)。
 
-* 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program)文章的步驟1-7為您的組織建立方案。
+* 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program)文章的步驟1-7為您的組織建立方案。
 
-* 為您的Cloud Service方案[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments)啟用發行前通道。
+* 為您的Cloud Service方案[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=zh-Hant&cloud-environments)啟用發行前通道。
 
 ## 設定工作流程
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   1.登入<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>並選取<b>Experience Manager</b>選項。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -52,7 +52,7 @@ ht-degree: 0%
   2.若為<b> Cloud Manager </b>選項，請按一下<b>啟動。 </b>您組織的計劃清單隨即顯示。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -63,7 +63,7 @@ ht-degree: 0%
     3.針對您的程式，點選……圖示，然後選取<b>編輯程式</b>選項。 對話方塊隨即顯示。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/edit-program.png">
     </a>
     <br>
@@ -74,7 +74,7 @@ ht-degree: 0%
     4.在[編輯程式]對話方塊中，移至[解決方案和附加元件]索引標籤</b>，選取[2] Forms - [數位註冊] </b>選項，然後點選[4] [更新] </b>。<b><b><b> 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/program-solution-addons.png">
     </a>
     <br>
@@ -99,7 +99,7 @@ ht-degree: 0%
   1.在您的程式的管道方塊中，點選<b>存取存放庫資訊。 </b>會顯示包含存放庫資訊的對話方塊 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/git-repo.png">
     </a>
     <br>
@@ -135,7 +135,7 @@ ht-degree: 0%
 
 原型專案是以Maven為基礎的範本。 它會根據最佳實務來建立最低限度的專案，以開始使用Headless調適型表單。 此外，還包括Formsas a Cloud Service的Headless最適化表單核心功能。 必須建立和部署原型37或更新版本的專案。
 ®®？
-視作業系統而定，執行maven命令以建立Experience Manager Formsas a Cloud Service專案。 使用原型版本37或更新版本。 請參閱[Archetype檔案](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html)以尋找最新版的Archetype。
+視作業系統而定，執行maven命令以建立Experience Manager Formsas a Cloud Service專案。 使用原型版本37或更新版本。 請參閱[Archetype檔案](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/overview.html?lang=zh-Hant)以尋找最新版的Archetype。
 
 +++ Microsoft® Windows
 
@@ -220,7 +220,7 @@ ht-degree: 0%
   1.登入<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>並選取<b>Experience Manager</b>選項。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -231,7 +231,7 @@ ht-degree: 0%
   2.若為<b> Cloud Manager </b>選項，請按一下<b>啟動。 </b>您組織的計劃清單隨即顯示。 開啟您的程式。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -242,7 +242,7 @@ ht-degree: 0%
     3.針對您的管道，點選……圖示，然後選取<b>執行</b>選項。 如果提示執行管道，請點選<b>執行</b>並等候管道<b>狀態</b>變更為<b>已完成</b>。  
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program">
+    <a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?lang=zh-Hant&#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/run-build-pipeline.png">
     </a>
     <br>

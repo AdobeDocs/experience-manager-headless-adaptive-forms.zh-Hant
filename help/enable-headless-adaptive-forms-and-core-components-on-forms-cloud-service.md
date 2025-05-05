@@ -304,7 +304,7 @@ ht-degree: 64%
       git push origin
       ```
 
-1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html)。
+1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html?lang=zh-Hant)。
 
    執行好管道後，為對應環境啟用調適型表單核心元件。 此外，調適型表單 (核心元件) 範本和 Canvas 3.0 主題新增至您的 Forms as a Cloud Service 環境中，為您提供自訂和建以核心元件為主調適型表單的選項。
 
@@ -313,7 +313,7 @@ ht-degree: 64%
 
 ### 核心元件有哪些？ {#core-components}
 
-[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) 是一組適用於 AEM 的標準化網站內容管理 (WCM) 元件，可加快開發時間並降低網站的維護成本。
+[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant) 是一組適用於 AEM 的標準化網站內容管理 (WCM) 元件，可加快開發時間並降低網站的維護成本。
 
 ### 啟用核心元件時新增哪些功能？ {#core-components-capabilities}
 
