@@ -88,9 +88,11 @@ ht-degree: 58%
 1. 為表單建立一個提交端點：
 
    1. 在新的瀏覽器標籤中打開 <https://requestbin.com/>。
+
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. 點選 **Create a public bin** 並複製端點 URL。
+
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    此特定端點可作為提交和檢視資料的範例。 在實際生產中，您會使用自己的端點或資料來源來儲存擷取的資料。
@@ -100,12 +102,15 @@ ht-degree: 58%
    1. 在第1課使用的瀏覽器標籤中，導覽至AEM Forms網頁介面，並導覽至&#x200B;**Forms** > **Forms和檔案**。
 
    1. 點選 **Create** 並選擇 Adaptive Form。
+
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. 從範本選取畫面選取&#x200B;**Blank with Core Components**&#x200B;範本，如下所示，然後按一下&#x200B;**下一步**。
+
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. 指定`Contact us`作為表單的&#x200B;**標題**。 確定表單的&#x200B;**名稱**&#x200B;是`contact-us`。
+
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
    1. 按一下「**建立**」。隨即顯示對話方塊。

@@ -25,7 +25,7 @@ ht-degree: 0%
 
 * 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program.html?#create-program)文章的步驟1-7為您的組織建立方案。
 
-* 為您的Cloud Service方案](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments)啟用[發行前通道。
+* 為您的Cloud Service方案[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?cloud-environments)啟用發行前通道。
 
 ## 設定工作流程
 

@@ -28,7 +28,7 @@ Headless 最適化表單可協助您：
 * 使用您選擇的程式語言建置高品質的多管道表單
 * 以原生方式將表單整合到您的桌面和行動應用程式、網站和聊天應用程式
 * 在表單應用程式中重複使用您的專屬 UI 元件
-* 利用Adobe Experience Manager Forms](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)的[功能
+* 利用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html)的功能
 
 此外，您可以自由開發自己的元件，使用您選擇的任何UI架構和程式語言來呈現表單。 您也可以使用現成可用的React元件來轉譯Headless調適型表單。
 
