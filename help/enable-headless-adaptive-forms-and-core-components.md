@@ -23,7 +23,7 @@ ht-degree: 12%
 
 在AEM 6.5 Forms環境中啟用Headless最適化Forms之前，
 
-* [升級至AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更新版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html)。
+* [升級至AEM 6.5 Forms Service Pack 16 (6.5.16.0)或更新版本](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html?lang=zh-Hant)。
 
 * 安裝最新版的[Apache Maven](https://maven.apache.org/download.cgi)。
 
@@ -127,7 +127,7 @@ ht-degree: 12%
 
 ### 核心元件有哪些？
 
-[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) 是一組適用於 AEM 的標準化網站內容管理 (WCM) 元件，可加快開發時間並降低網站的維護成本。
+[核心元件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hant) 是一組適用於 AEM 的標準化網站內容管理 (WCM) 元件，可加快開發時間並降低網站的維護成本。
 
 ### 啟用核心元件時新增了哪些功能？
 
