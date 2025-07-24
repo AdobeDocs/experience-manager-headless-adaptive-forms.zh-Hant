@@ -9,21 +9,21 @@ level: Beginner, Intermediate
 keywords: Headless，適用性表單，Visual Studio程式碼擴充功能
 hide: false
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
-source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
 
 # 適用於Headless最適化表單的Microsoft Visual Studio Code擴充功能
 
-如果您使用Microsoft® Visual Studio Code做為IDE，則可以使用適用於Microsoft Visual Studio Code的Adaptive Forms擴充功能。 擴充功能：
+如果您使用Microsoft® Visual Studio Code做為IDE （整合式開發環境），您可以使用適用於Microsoft Visual Studio Code的Adaptive Forms擴充功能。 擴充功能：
 
-* 在Visual Studio Code中新增最適化Forms的IntelliSense功能
-* 協助驗證和自動完成Headless最適化表單元件的JSON語法
-* 提供面板以輕鬆導覽Headless最適化表單的結構
-* 協助翻譯Headless最適化表單
+* 在Visual Studio Code中新增最適化Forms的IntelliSense功能。
+* 協助驗證及自動完成Headless最適化表單元件的JSON語法。
+* 輕鬆地在面板中導覽Headless最適化表單的結構。
+* 協助翻譯Headless最適化表單。
 
 <!-- 
 
@@ -51,4 +51,4 @@ Adobe provides an extension for Microsoft&reg; Visual Studio Code to make it eas
    ![正在安裝擴充功能](/help/assets/install-extension.png)
 
 
-   如需.vsix檔案的相關資訊，請參閱[Microsoft Visual Studio Code說明](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)。
+   如需.vsix檔案的相關資訊，請參閱[Microsoft Visual Studio Code說明](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_install-from-a-vsix)。

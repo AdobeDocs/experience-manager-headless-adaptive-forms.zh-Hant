@@ -1,8 +1,8 @@
 ---
-source-git-commit: 103a0312291d4831249d32e5fea7d20e0fc99d10
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 47%
 
 ---
 # 投稿
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 投稿人指南文件
 
-請參閱 [投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
+請參閱 [投稿人指南](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/introduction)。
 
 ## 有疑問嗎？
 
@@ -28,16 +28,11 @@ ht-degree: 100%
 
 ## 投稿人授權合約
 
-貢獻本專案的所有協力廠商必須提供簽約投稿人的
-授權合約。這可授予 Adobe 在專案中重新使用
-您稿件的權限。[簽署我們的 CLA](http://opensource.adobe.com/cla.html)。您
-只需要提交 Adobe CLA 一次，因此如果您之前已送出 CLA，
-即可立即開始投稿！
+貢獻者必須先簽署貢獻者授權合約，才能向此專案提交任何第三方貢獻內容。 本合約允許Adobe在專案中重新使用您貢獻的內容。 [簽署Adobe的CLA](https://opensource.adobe.com/cla.html) 您只需要提交 Adobe CLA 一次，因此如果您之前已送出 CLA，即可立即開始投稿！
 
 ## 程式碼檢閱
 
-所有提交作業均應以提取請求的形式提出，且須通過
-專案提交者審核。閱讀 [GitHub 的提取請求文件](https://help.github.com/articles/about-pull-requests/)
+以提取請求的形式提交所有貢獻內容，專案提交者必須加以稽核。 閱讀 [GitHub 的提取請求文件](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 以了解傳送提取請求的詳細資訊。
 
 <!--
@@ -47,13 +42,8 @@ submitting a pull request!
 
 ## 從投稿人至提交人
 
-我們很歡迎社區所有人出力貢獻！如果您不只是要成為投稿人，
-還想更進一步成為提交人，以便擁有完全的撰寫存取權和專案發話權，則您必須
-受到專案的邀請。現有提交人在獲得邀請前，
-要採用內部提名序，且必須達成消極共識 
-(沉默表示核准)。如果您認為自己有資格，並且希望更深入地參與其中，
-歡迎隨時與現有的提交者進行相關對話。
+Adobe樂於接受任何協助撰寫，也會審視您的貢獻。 如果您想要成為具有完整寫入存取權和專案發言權的提交者，您必須受邀加入專案。 現有的提交者會採用內部提名程式，在發出邀請前，必須達成懶人共識（沈默表示同意）。 如果您認為您符合資格且有興趣更積極地參與，請洽詢目前的認可者之一，以討論後續步驟。
 
 ## 安全性問題
 
-安全性問題不應在此問題追蹤器上通報，而是要 [向我們的安全性專家提出問題](https://helpx.adobe.com/tw/security/alertus.html)
+不應在此問題追蹤器上回報安全性問題。 請改為[向Adobe安全性專家提出問題](https://helpx.adobe.com/tw/security/alertus.html)

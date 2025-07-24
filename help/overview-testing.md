@@ -1,34 +1,34 @@
 ---
 title: AEM Headless最適化表單概述
-description: AEM Forms Headless最適化Forms提供快速有效率的方式，為各種平台建立表單，包括Headless或Headful CMS、React應用程式、單頁應用程式(SPA)、Web應用程式、行動應用程式、Amazon Alexa、Google助理、WhatsApp等。 使用Headless最適化Forms，您可以簡化建立表單的程式，讓您更輕鬆地跨不同裝置和平台從使用者收集資料。
+description: 使用AEM Headless調適型表單建立一次表單，並傳送至CMS、React、SPAs、Web、行動裝置、Alexa、WhatsApp等，以進行快速、可擴充的資料擷取。
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-keywords: Headless CMS、調適型表單、Headless UI、Headful CMS、語音助理、alexa、聊天機器人、WhatsApp架構
+keywords: Headless CMS、適用性表單、Headless UI、Headful CMS、語音助理、alexa、聊天機器人、WhatsApp架構
 hide: true
 hidefromtoc: true
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
-source-git-commit: 1f70e2bb0e5f12e8ee5d948ef1d3cd2935f2274f
+source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '328'
+ht-degree: 2%
 
 ---
 
 # 簡介
 
-Adobe Experience Manager (AEM) Headless最適化Forms是在Adobe Experience Manager平台中建立和管理headless網路表單的解決方案。 此功能可讓組織建立、發佈和管理互動式表單，這些表單可透過API存取及互動，而非透過傳統的圖形使用者介面。 AEM Headless最適化Forms在表單開發和部署方面提供了更大的彈性和可擴充性，並透過根據特定需求量身打造表單設計和功能的能力，改善了使用者體驗。 此解決方案利用AEM和Headless技術的功能，為各種使用案例和應用程式建立、管理和部署Web表單提供強大的平台。
+Adobe Experience Manager (AEM) Headless最適化Forms是在Adobe Experience Manager平台中建立和管理headless網路表單的解決方案。 此功能可讓組織建立、發佈和管理互動式表單，這些表單可透過API存取及互動，而非透過傳統的圖形使用者介面。 AEM Headless最適化Forms在表單開發和部署方面提供了更大的彈性和可擴充性，並透過根據特定需求量身打造表單設計和功能的能力，改善了使用者體驗。 此解決方案利用AEM和Headless技術的功能，為建立、管理和部署各種使用案例和應用程式的網路表單提供強大的平台。
 
 ![在任何網站、應用程式或非視覺化互動中建置並以原生方式轉譯表單](/help/assets/headless-forms-for-any-device.jpeg)
 
-Headless 最適化表單可協助您：
+Headless調適型表單可協助您進行以下工作：
 
-* 使用您選擇的程式語言建置高品質的多管道表單
-* 以原生方式將表單整合到您的桌面和行動應用程式、網站和聊天應用程式
-* 在表單應用程式中重複使用您的專屬 UI 元件
-* 利用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/docs/experience-manager-65/forms/getting-started/introduction-aem-forms.html?lang=zh-Hant)的功能
+* 以您選擇的程式語言建置高品質的多管道表單。
+* 以原生方式將表單整合至您的案頭和行動應用程式、網站和聊天應用程式。
+* 透過表單應用程式重複使用您的專有UI元件。
+* 使用Adobe Experience Manager Forms[的](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)功能。
 
 此外，您可以自由開發自己的元件，使用您選擇的任何UI架構和程式語言來呈現表單。 您也可以使用現成可用的React元件來轉譯Headless調適型表單。
 
