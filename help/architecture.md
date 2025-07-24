@@ -76,7 +76,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 所有這些元件都包含在AEM Archetype中。 當您為Headless調適型表單建立AEM Archetype 37或更新版本的專案時，專案中包含上述最新版本的程式庫。
 
-* **程式碼遊樂場**： [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是專為開發人員設計的互動式環境，可試驗、瞭解及測試Headless最適化Forms的功能。
+* **程式碼遊樂場**： [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)是專為開發人員設計的互動式環境，可試驗、瞭解及測試Headless最適化Forms的功能。
 
 **已啟動的應用程式**： Adobe也發行了已啟動的應用程式，可幫助您快速啟動Headless最適化表單。
 

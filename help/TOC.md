@@ -30,8 +30,8 @@ ht-degree: 4%
 + 建立Headless最適化表單 {#authoring-headless-adaptive-forms}
    + [使用最適化Forms編輯器建立Headless最適化表單](create-a-headless-adaptive-form.md)
 + 開發人員參考資料 {#developer-reference}
-   + [開發人員入口網站](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
-   + [代碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
+   + [開發人員入口網站](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=zh-Hant)
+   + [代碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)
    + [Headless最適化表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [常見問題](faq.md)
 + [疑難排解](troubleshooting.md)

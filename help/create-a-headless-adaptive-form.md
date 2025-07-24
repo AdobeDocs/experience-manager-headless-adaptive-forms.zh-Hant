@@ -45,16 +45,16 @@ AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless�
 
 適用於AEM Forms as a Cloud Service **的**
 
-* 存取[AEM Forms as a Cloud Service作者執行個體](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service)或[本機AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment)環境。
+* 存取[AEM Forms as a Cloud Service作者執行個體](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service)或[本機AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment)環境。
 
 * **最適化表單範本**：範本提供基本結構，並定義最適化表單的外觀（版面配置和樣式）。 其中具有包含特定屬性和內容結構的預先格式化元件。它也會提供定義主題並提交動作的選項。 主題會定義外觀，而提交動作會定義提交最適化表單時要採取的動作。例如，將所收集的資料傳送到資料來源。雲端服務會提供一個名為 blank 的 OOTB 範本：
 
    * 該 `blank Adaptive Forms (Core Components)` 範本會包含在每個新的 AEM Forms as a Cloud Service 程式中。
-   * 您也可以[從頭開始建立新的Adaptive Forms （核心元件）範本](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor)。
+   * 您也可以[從頭開始建立新的Adaptive Forms （核心元件）範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor)。
 
 * **最適化表單主題**：主題包含元件和面板的樣式詳細資料。樣式包括背景顏色、狀態顏色、透明度、對齊方式和大小等屬性。套用主題時，指定的樣式會反映在對應的元件上。`Canvas` 會包含在每個新的 AEM Forms as a Cloud Service 程式中。
 
-* **許可權**：將使用者新增至[!DNL forms-users]群組。 [!DNL forms-users] 群組的成員擁有建立最適化表單的權限。如需特定使用者群組的詳細表單清單，請參閱[群組與許可權](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks)。
+* **許可權**：將使用者新增至[!DNL forms-users]群組。 [!DNL forms-users] 群組的成員擁有建立最適化表單的權限。如需特定使用者群組的詳細表單清單，請參閱[群組與許可權](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/forms-groups-privileges-tasks)。
 
 
 ## 建立自適應表單 {#create-an-adaptive-form-components}
@@ -79,7 +79,7 @@ AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless�
 
    * **表單資料模型**：[表單資料模型](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration)可讓您將來自分散資料來源的實體和服務整合到最適化表單。如果您建立的最適化表單是對多個資料來源擷取和寫入資料，請選擇「表單資料模型」。
 
-   * **JSON結構描述**： [JSON結構描述](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model)最適化Forms可提供關聯JSON結構描述（代表正在產生或使用之資料的結構）的功能，讓您與組織的後端系統無縫整合。 此關聯可讓作者使用結構描述的元素，以動態方式將內容新增至最適化表單。 在製作期間，您可以在內容瀏覽器的「資料模型物件」標籤中快速存取結構描述元素。 建立新的最適化表單時，編輯器會自動新增所有欄位。
+   * **JSON結構描述**： [JSON結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model)最適化Forms可提供關聯JSON結構描述（代表正在產生或使用之資料的結構）的功能，讓您與組織的後端系統無縫整合。 此關聯可讓作者使用結構描述的元素，以動態方式將內容新增至最適化表單。 在製作期間，您可以在內容瀏覽器的「資料模型物件」標籤中快速存取結構描述元素。 建立新的最適化表單時，編輯器會自動新增所有欄位。
 
    根據預設，系統會自動選取相關聯 JSON 結構描述的所有欄位，並轉換成對應的最適化表單元件，進而簡化編寫流程。精靈新增了便利性，可讓您透過使用核取方塊，選擇性地選擇應包含在調適型表單中的欄位。
 

@@ -303,7 +303,7 @@ ht-degree: 52%
       git push origin
       ```
 
-1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道執行成功後，Adaptive Forms核心元件會針對對應的環境啟用。 此外，調適型表單 (核心元件) 範本和 Canvas 3.0 主題新增至您的 Forms as a Cloud Service 環境中，為您提供自訂和建以核心元件為主調適型表單的選項。
 
