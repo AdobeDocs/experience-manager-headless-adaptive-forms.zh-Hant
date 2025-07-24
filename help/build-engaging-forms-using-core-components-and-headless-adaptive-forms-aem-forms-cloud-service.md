@@ -86,6 +86,7 @@ ht-degree: 56%
 
    1. 在新的瀏覽器標籤中打開 <https://pipedream.com/requestbin>。
    1. 點選 **Create a public bin** 並複製端點 URL。
+
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
@@ -93,23 +94,29 @@ ht-degree: 56%
 1. 使用精靈介面編寫最適化表單：
 
    1. 在第 1 課中使用的瀏覽器標籤中，導覽至 AEM Forms as Cloud Service Web 介面，然後導覽至 Forms and Documents。
+
       ![](/help/assets/screenshot2028114029.png)
 
    1. 按一下&#x200B;**建立** > **最適化表單**。
+
       ![](/help/assets/screenshot2028114629.png)
 
    1. 從範本選擇畫面中選擇 **Blank with Core Components** 範本，如下所示：
+
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
-   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**主題，如下圖：
+   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**&#x200B;主題，如下圖：
+
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**欄位的公用bin，如下所示：
+   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**&#x200B;欄位的公用bin，如下所示：
+
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 按一下「**建立**」。在您的表單上指定名稱和標題。 例如，**註冊**。 按一下&#x200B;**建立**。
 
-   1. 最適化表單編輯器打開。關閉任何與偏好設定或資訊相關的快顯視窗或對話框。按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**元件分別新增至空白表單的頂端和底部。
+   1. 最適化表單編輯器打開。關閉任何與偏好設定或資訊相關的快顯視窗或對話框。按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**&#x200B;元件分別新增至空白表單的頂端和底部。
+
       ![](/help/assets/screenshot2028121929.png)
 
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
@@ -121,6 +128,7 @@ ht-degree: 56%
    1. 點選&#x200B;**電話號碼**&#x200B;元件，快顯視窗選單隨即顯示。點擊選單中的&#x200B;**扳手圖示**&#x200B;以設定欄位。
 
    1. 打開&#x200B;**驗證標籤**，標記欄位&#x200B;**必要**，然後點擊&#x200B;**完成**。成功訊息隨即顯示。
+
       ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
@@ -132,9 +140,11 @@ ht-degree: 56%
    1. 以虛擬資料填入表單。
 
    1. 提交表單。
+
       ![](/help/assets/screenshot2028125729.png)
 
    1. 在 Request Bin 標籤中，檢查提交的資料。
+
       ![](/help/assets/screenshot2028125829.png)
 
 1. 使用規則將互動性新增至表單：
