@@ -38,4 +38,4 @@ ht-degree: 0%
 * [Headless適用性表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/) — 以程式設計方式列出、擷取、驗證及提交表單。
 * [架構](architecture.md) - Headless最適化表單如何運作，以及前端應用程式如何使用它們。
 
-如需逐步整合，請參閱[建立並發佈Headless表單](create-and-publish-a-headless-form.md)和[開發人員入口網站](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)。
+如需逐步整合，請參閱[建立並發佈Headless表單](create-and-publish-a-headless-form.md)和[開發人員入口網站](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=zh-Hant)。
