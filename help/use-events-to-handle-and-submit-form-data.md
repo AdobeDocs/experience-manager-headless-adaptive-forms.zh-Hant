@@ -1,8 +1,9 @@
 ---
 title: 使用事件來處理和提交表單Headless最適化表單資料
 description: 使用事件來處理和提交表單Headless最適化表單資料。
-hide: false
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+hide: true
+hidefromtoc: true
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%

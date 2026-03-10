@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，常見問題
 hide: false
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
-# 常見問題集 (FAQ) {#headless-adaptive-forms-faq}
+# 常見問題 (FAQ) {#headless-adaptive-forms-faq}
 
 ## 如要使用Headless調適型表單，我應該知道React.js嗎？
 
@@ -84,6 +84,29 @@ You do not require a license.properties file to run AEM Cloud Service SDK.
 ## 是否有任何外掛程式可讓Headless AF的開發更輕鬆？
 
 是 — Visual Studio Code擴充功能可讓您在JSON中手動編寫Headless最適化表單。
+
+## 行動或離線表單的建議作法為何？ {#mobile-offline-forms}
+
+透過Headless最適化Forms API建置您自己的原生應用程式並擷取表單定義。 您可以選擇實作離線支援（例如，本機儲存和同步）。 請參閱[行動表單最佳實務](mobile-forms-best-practices.md)，以取得建議的方法和API連結。
+
+## 如何搭配AEM Forms使用GraphQL或Headless API？
+
+AEM Headless最適化Forms使用&#x200B;**HTTP/REST API**，而非GraphQL。 應用程式會呼叫這些API來列出表單、擷取表單定義(JSON)、驗證、提交和追蹤提交狀態。 使用[Headless最適化表單HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)以取得完整參考。 如需如何擷取及轉譯表單，請參閱[架構](architecture.md)和[瞭解Headless表單](understanding-headless-forms.md)。
+
+## 如何使用Adobe AEM Forms中的React元件來實作和設計Headless表單樣式？
+
+您可以使用自己的React元件和CSS （或UI程式庫，例如素材UI）來實作和設定Headless表單的樣式。 表單邏輯（狀態、驗證和規則）來自Forms Web SDK和表單JSON；您的應用程式會提供轉譯它的UI。
+
+* 若要使用React UI程式庫來設定Headless表單的樣式，請參閱[使用自訂react程式庫來呈現Headless表單](use-google-material-ui-react-components-to-render-a-headless-form.md)。
+* 若要建置自訂React元件並將它們對應至表單欄位，請參閱[使用自訂元件來轉譯Headless表單](developing-for-headless-forms-using-your-own-components.md)。
+
+如需何時使用Headless表單、狀態管理和驗證等概念，請參閱[瞭解Headless表單](understanding-headless-forms.md)。
+
+## 如何使用自訂CSS、主題、規則編輯器和Headless表單來實作和自訂AEM Forms？
+
+**Headless表單：**&#x200B;樣式與外觀完全由您控制。 您使用自己的React （或其他）元件和自己的CSS；沒有內建主題。 請參閱[使用自訂react程式庫來轉譯Headless表單](use-google-material-ui-react-components-to-render-a-headless-form.md)和[使用自訂元件來轉譯Headless表單](developing-for-headless-forms-using-your-own-components.md)來實作和設定Headless表單的樣式。
+
+**傳統AEM Forms （主題、規則編輯器、視覺編輯器）：**&#x200B;自訂CSS、主題編輯器和規則編輯器套用至傳統（非headless）最適化Forms編寫體驗。 如需這些主題，請參閱Experience League上的[AEM Forms檔案](https://experienceleague.adobe.com/docs/experience-manager-forms.html)。
 
 ## Headless最適化表單可以連線到任何CRM以讀取或寫入資料嗎？
 

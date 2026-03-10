@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，架構
 hide: false
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 **Headless最適化表單**： Headless最適化表單會以.json檔案表示。 JSON結構會定義表單的元件、限制和結構。
 
-**前端應用程式**：前端應用程式，例如SPA （單頁應用程式）、行動應用程式、JavaScript應用程式，使用Headless最適化表單（JSON表單表示）並在使用者端上轉譯表單。 您可以使用Headless調適型表單隨附的React轉譯器元件來轉譯調適型表單，或建置您自己的自訂元件來原生轉譯Headless調適型表單。
+**前端應用程式**：前端應用程式，例如SPA （單頁應用程式）、行動應用程式、JavaScript應用程式，使用Headless最適化表單（JSON表單表示）並在使用者端上轉譯表單。 您可以使用Headless調適型表單隨附的React轉譯器元件來轉譯調適型表單，或建置您自己的自訂元件以原生轉譯Headless調適型表單。 針對原生行動與離線表單使用案例，建議透過API建置您自己的應用程式並擷取表單定義；請參閱[行動表單最佳作法](mobile-forms-best-practices.md)。
 
 <!-- ### Understanding Headless adaptive forms definition -->
 
@@ -76,7 +76,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 所有這些元件都包含在AEM Archetype中。 當您為Headless調適型表單建立AEM Archetype 37或更新版本的專案時，專案中包含上述最新版本的程式庫。
 
-* **程式碼遊樂場**： [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)是專為開發人員設計的互動式環境，可試驗、瞭解及測試Headless最適化Forms的功能。
+* **程式碼遊樂場**： [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)是專為開發人員設計的互動式環境，可試驗、瞭解及測試Headless最適化Forms的功能。
 
 **已啟動的應用程式**： Adobe也發行了已啟動的應用程式，可幫助您快速啟動Headless最適化表單。
 
