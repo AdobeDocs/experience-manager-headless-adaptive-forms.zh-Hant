@@ -6,11 +6,11 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 在本教學課程中，Google素材UI元件用於示範如何使用自訂React元件來轉譯Headless調適型表單。 不過，此程式庫並無限制，您可以自由使用任何React元件程式庫或開發自己的自訂元件。
 
-根據本文的結論，在&#x200B;_使用入門套件_&#x200B;文章建立並發佈Headless表單中建立的[聯絡我們](create-and-publish-a-headless-form.md)表單將轉換為以下內容：
+根據本文的結論，在[使用入門套件](create-and-publish-a-headless-form.md)文章建立並發佈Headless表單中建立的&#x200B;_聯絡我們_&#x200B;表單將轉換為以下內容：
 
 ![](assets/headless-adaptive-form-with-google-material-ui-components.png)
 
@@ -35,11 +35,11 @@ ht-degree: 0%
 
 ![](assets/headless-forms-graphics-source-main.svg)
 
-## 1.安裝Google資料UI
+## &#x200B;1. 安裝Google資料UI
 
 依預設，入門套件使用[Adobe的Spectrum](https://spectrum.adobe.com/)元件。 讓我們設定為使用[Google的素材UI](https://mui.com/)：
 
-1. 確認入門套件未執行。 若要停止入門套件，請開啟您的終端機，導覽至&#x200B;**react-starter-kit-aem-headless-forms**，然後按Ctrl-C (在Windows、Mac和Linux®上相同)。
+1. 確認入門套件未執行。 若要停止入門套件，請開啟您的終端機，導覽至&#x200B;**react-starter-kit-aem-headless-forms**，然後按Ctrl-C （在Windows、Mac和Linux®上相同）。
 
    請勿嘗試關閉終端機。 關閉終端機並不會停止入門套件。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 它會安裝Google素材UI npm程式庫，並將程式庫新增至入門套件相依性。 您現在可以使用Material UI元件來呈現表單元件。
 
 
-## 2.建立自訂React元件
+## &#x200B;2. 建立自訂React元件
 
 讓我們建立自訂元件，將預設[文字輸入](https://spectrum.adobe.com/page/text-field/)元件取代為[Google素材UI文字欄位](https://mui.com/material-ui/react-text-field/)元件。
 
@@ -111,11 +111,11 @@ Headless表單定義中使用的每個元件型別（[fieldType](https://opensou
 
 您的自訂元件`materialtextfield`已就緒。 讓我們設定此自訂元件，以Google素材UI文字欄位取代[fieldType： &quot;text-input&quot;](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/docs/adaptive-form-components-text-input-field--def)的所有執行個體。
 
-## 3.對應具有Headless表單欄位的自訂元件
+## &#x200B;3. 使用Headless表單欄位對應自訂元件
 
 使用協力廠商程式庫元件呈現表單欄位的程式稱為對應。 您將每個([fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input))對應到協力廠商程式庫的對應元件。
 
-所有對應相關資訊都已新增至`mappings.ts`檔案。 `...mappings`檔案中的`mappings.ts`陳述式參考預設對應，此對應會以[Adobe Spectrum](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)元件覆蓋（`:type`fieldType[或](https://spectrum.adobe.com/page/text-field/)）。
+所有對應相關資訊都已新增至`mappings.ts`檔案。 `mappings.ts`檔案中的`...mappings`陳述式參考預設對應，此對應會以[Adobe Spectrum](https://spectrum.adobe.com/page/text-field/)元件覆蓋（[fieldType](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-json-properties-fieldtype--text-input)或`:type`）。
 
 若要為`materialtextfield`元件新增對應（在上一步中建立）：
 
@@ -160,7 +160,7 @@ Headless表單定義中使用的每個元件型別（[fieldType](https://opensou
 
 ## 下一步
 
-您已成功轉譯包含使用Google材質UI之自訂元件的表單。 您是否嘗試透過按一下提交按鈕(與對應的Google材料UI元件對應)來提交表單？ 如果沒有，請繼續嘗試。
+您已成功轉譯包含使用Google材質UI之自訂元件的表單。 您是否嘗試透過按一下提交按鈕（與對應的Google材料UI元件對應）來提交表單？ 如果沒有，請繼續嘗試。
 
 表單會將資料提交至任何資料來源嗎？ 沒有？ 別擔心。 原因是您的表單未設定為與執行階段程式庫通訊。
 

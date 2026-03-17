@@ -7,9 +7,9 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless，最適化表單，常見問題
-hide: false
+index: true
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -34,10 +34,12 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 您可以使用入門應用程式來開始開發和設定Headless最適化表單的樣式。 您需要Forms as a Cloud Service來託管及提供Headless最適化表單與後端表單功能。
 
-<!-- ## Do I need an archetype project to develop Headless adaptive forms?
+<!-- 
+## Do I need an archetype project to develop Headless adaptive forms?
 
 You can use the starter app to start developing and styling your Headless adaptive forms. Later on, you can use the 
-archetype project to deploy the finished Headless adaptive forms and corresponding custom code, created using starter app, to Forms as a Cloud Service environment. The Forms as a Cloud Service environment helps you test and productionize the forms. -->
+archetype project to deploy the finished Headless adaptive forms and corresponding custom code, created using starter app, to Forms as a Cloud Service environment. The Forms as a Cloud Service environment helps you test and productionize the forms. 
+-->
 
 ## 哪裡可以取得Headless最適化表單的預覽？ {#storybook-example}
 
@@ -57,16 +59,18 @@ Headless最適化表單是以[標準規格](/help/assets/headless-adaptive-forms
 
 Headless最適化表單允許使用個人化資料預先填寫表單。 [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)提供如何預填Headless最適化表單的範例。
 
-<!-- >
+<!--
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?
 
-At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes.  -->
+At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes.  
+-->
 
 ## 我可以搭配Angular SPA使用Headless最適化表單嗎？
 
 您可以使用Web SDK整合Headless最適化表單與Angular SPA。 它獨立於任何框架。 您可以使用React SDK作為參考。
 
-<!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
+<!--
+## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 
 During the limited release program, use the `-r prerelease` switch every time you start the AEM SDK instance. 
 
@@ -74,11 +78,9 @@ During the limited release program, use the `-r prerelease` switch every time yo
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless adaptive forms on the local development environment. To install the feature archive, see [Setup development environment](setup-development-environment.md).
 
-<!-- 
 ## Where do one get the license.properties file from?
 
 You do not require a license.properties file to run AEM Cloud Service SDK. 
-
 -->
 
 ## 是否有任何外掛程式可讓Headless AF的開發更輕鬆？

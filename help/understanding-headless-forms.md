@@ -7,15 +7,14 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless forms， headless form library，無頭表單庫， adaptive forms，最適化表單，狀態管理，驗證， design system，設計系統， SSR， CMS
-hide: false
-exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+index: true
+exl-id: 539da3e9-25c5-4e26-ba4e-f68cf849bca4
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '2605'
 ht-degree: 0%
 
 ---
-
 
 # 瞭解Headless表單 — 概念與常見問答 {#understanding-headless-forms}
 
@@ -39,11 +38,11 @@ ht-degree: 0%
 |--------|---------------------------|------------------------|
 | **UI** | 隨附內建元件和樣式 | 沒有規定的UI；您自備元件 |
 | **樣式** | 程式庫元件的主題設定或覆寫 | 完全控制；依原樣使用您的設計系統 |
-| **表單定義** | 通常僅限程式碼(JSX/HTML中的元件) | 通常資料導向(來自CMS或API的JSON/結構描述) |
+| **表單定義** | 通常僅限程式碼（JSX/HTML中的元件） | 通常資料導向（來自CMS或API的JSON/結構描述） |
 | **狀態與驗證** | 繫結至程式庫元件 | 透過API/鉤子公開；任何UI都可以繫結到它們 |
 | **管道** | 通常為網頁（有時為一個框架） | 相同的表單定義可以驅動網頁、行動裝置、聊天等。 |
 
-使用AEM Headless最適化Forms，您可以[在AEM中建立並發佈表單](create-and-publish-a-headless-form.md)一次；任何使用者端(React、Angular、原生行動裝置、聊天機器人)都可以[擷取表單JSON](architecture.md)，並使用該頻道的適當UI來轉譯。
+使用AEM Headless最適化Forms，您可以[在AEM中建立並發佈表單](create-and-publish-a-headless-form.md)一次；任何使用者端（React、Angular、原生行動裝置、聊天機器人）都可以[擷取表單JSON](architecture.md)，並使用該頻道的適當UI來轉譯。
 
 ### 為何應使用Headless表單，而非以UI為基礎的表單解決方案？
 
@@ -60,7 +59,7 @@ Headless表單最適合您下列需求：
 在以下情況下使用Headless表單：
 
 * 您擁有或想要強大的設計系統或元件庫。
-* Forms是由非開發人員所撰寫(例如在CMS中)，且必須在多個應用程式或管道中運作。
+* Forms是由非開發人員所撰寫（例如在CMS中），且必須在多個應用程式或管道中運作。
 * 您需要跨網路、行動或其他使用者端的相同表單邏輯（驗證、規則）。
 * 您想要將重新轉譯最小化，並且保持表單邏輯可獨立於UI測試。
 
@@ -74,7 +73,7 @@ Headless表單最適合您下列需求：
 它解決了真正的架構問題：
 
 * **分離關注點** — 表單結構、規則和驗證位於資料與邏輯層中；UI層只會轉譯和傳送使用者動作。 這可改善測試性和重複使用性。
-* **管道獨立性** — 一個表單定義可以驅動不同的UI (例如React Web、React Native、Angular或語音)。 AEM Headless最適化Forms是針對下列用途而建置：[建置一次、跨React、SPA、Web、行動等傳送](overview.md)。
+* **管道獨立性** — 一個表單定義可以驅動不同的UI （例如React Web、React Native、Angular或語音）。 AEM Headless最適化Forms是針對下列用途而建置：[建置一次、跨React、SPA、Web、行動等傳送](overview.md)。
 * **不使用程式碼編寫** — 商務使用者可以在[最適化表單編輯器](create-a-headless-adaptive-form.md)中變更欄位和規則；開發人員不需要重新部署內容變更。
 * **與現有棧疊整合** — 您保留設計系統、狀態管理和路由；Headless層僅處理表單狀態、驗證和提交。
 
@@ -123,7 +122,7 @@ Headless表單最適合您下列需求：
 
 提交與UI脫離：
 
-* **AEM提交動作** — 您在AEM中設定表單以提交至REST端點、電子郵件或整合(例如Microsoft Dynamics、Salesforce)。 表單透過AEM提交，可處理實際的HTTP/後端呼叫。 請參閱[使用事件處理及提交表單資料](use-events-to-handle-and-submit-form-data.md)。
+* **AEM提交動作** — 您在AEM中設定表單以提交至REST端點、電子郵件或整合（例如Microsoft Dynamics、Salesforce）。 表單透過AEM提交，可處理實際的HTTP/後端呼叫。 請參閱[使用事件處理及提交表單資料](use-events-to-handle-and-submit-form-data.md)。
 * **使用者端送出** — 您的應用程式可以從執行階段狀態接聽送出或收集表單資料，並將其傳送至您自己的API。 [HTTP API](https://opensource.adobe.com/aem-forms-af-runtime/api/)檔案清單、擷取、驗證、提交及追蹤提交狀態。
 * **預填** — 可以透過REST端點或伺服器端預填資料，以便在載入表單時填入狀態。 請參閱[分鏡指令碼 — 預填範例](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)。
 
@@ -213,7 +212,7 @@ Headless表單最適合您下列需求：
 * **預填和提交** - [預填](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)和提交可以點選REST端點，因此您可以從CRM、DAM或商務後端預填和提交到相同或不同的系統。 AEM Forms也支援[Microsoft Dynamics和Salesforce](faq.md)、REST、電子郵件和自訂提交動作。
 * **Forms資料模型** - AEM Forms提供Forms資料模型，可連線至不同的資料來源；Headless表單可使用這些功能進行預填、驗證和提交，而不需要您自行建立每個整合。
 
-若為行動與離線案例，建議透過Headless最適化Forms API[&#128279;](mobile-forms-best-practices.md) 建置您自己的應用程式並擷取表單定義。
+若為行動與離線案例，建議透過Headless最適化Forms API](mobile-forms-best-practices.md) [建置您自己的應用程式並擷取表單定義。
 
 ## 另請參閱 {#see-also}
 
@@ -222,5 +221,5 @@ Headless表單最適合您下列需求：
 * [常見問題](faq.md)
 * [建立並發佈Headless表單](create-and-publish-a-headless-form.md)
 * [Headless調適型表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)
+* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
 * [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)

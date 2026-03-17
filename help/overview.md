@@ -7,9 +7,9 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless CMS、適用性表單、Headless UI、Headful CMS、語音助理、alexa、聊天機器人、WhatsApp架構
-hide: false
+index: true
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Headless調適型表單可協助您進行以下工作：
 * 以您選擇的程式語言建置高品質的多管道表單。
 * 以原生方式將表單整合至您的案頭和行動應用程式、網站和聊天應用程式。
 * 透過表單應用程式重複使用您的專有UI元件。
-* 利用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的功能。
+* 利用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[功能。
 
 針對行動與離線表單使用案例，建議透過Headless最適化Forms API建立您自己的原生應用程式並擷取表單定義。 如需詳細資訊，請參閱[行動表單最佳實務](mobile-forms-best-practices.md)。
 

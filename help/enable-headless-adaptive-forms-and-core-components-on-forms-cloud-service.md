@@ -11,10 +11,10 @@ docset: CloudService
 hide: true
 hidefromtoc: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 52%
+source-wordcount: '943'
+ht-degree: 51%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 52%
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 
-## &#x200B;1. 原地複製您的 AEM Forms as a Cloud Service Git 存放庫 {#clone-git-repository}
+## &#x200B;1. 複製AEM Forms as a Cloud Service Git存放庫 {#clone-git-repository}
 
 1. 登入 [Cloud Manager](https://my.cloudmanager.adobe.com/)，並選取您的組織和計劃。
 
@@ -65,11 +65,11 @@ ht-degree: 52%
    出現提示時，提供認證。 原地複製 存放庫至本機電腦。
 
 
-## &#x200B;2. 將調適型核心元件的相依性新增至您的 Git 存放庫 {#add-adaptive-forms-core-components-dependencies}
+## &#x200B;2. 將最適化Forms核心元件相依性新增到您的Git存放庫 {#add-adaptive-forms-core-components-dependencies}
 
 1. 在純文字程式碼編輯器中開啟 Git 存放庫資料夾。 例如 VS Code。
 1. 閇啟 `[AEM Repository Folder]\pom.xml` 檔案進行編輯。
-1. 以[核心元件文件](https://github.com/adobe/aem-core-forms-components)中指定的版本取代 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 等版本元件。如果該元件不存在，請新增這些元件。
+1. 以[核心元件文件](https://github.com/adobe/aem-core-forms-components)中指定的版本取代 `core.forms.components.version`、`core.forms.components.af.version` 和 `core.wcm.components.version` 等版本元件。 如果該元件不存在，請新增這些元件。
 
    ```XML
    <!-- Replace the version with the latest released version at https://github.com/adobe/aem-core-forms-components/tags -->
@@ -201,7 +201,7 @@ ht-degree: 52%
    >
    >  以您的 appld 取代 `${appId}`。
    >
-   >  若要尋找你的 `${appId}` (在 `[AEM Repository Folder]/all/pom.xml` 檔案內)，搜尋 `-packages/application/install` 一詞。在 `-packages/application/install` 一詞以前的文字是您的 `${appId}`。 例如，以下程式碼 `myheadlessform` 是 `${appId}`。
+   >  若要尋找你的 `${appId}` (在 `[AEM Repository Folder]/all/pom.xml` 檔案內)，搜尋 `-packages/application/install` 一詞。 在 `-packages/application/install` 一詞以前的文字是您的 `${appId}`。 例如，以下程式碼 `myheadlessform` 是 `${appId}`。
    >
    >   ```
    >             <embedded>
@@ -282,14 +282,14 @@ ht-degree: 52%
 
 1. 儲存並關閉檔案。
 
-## 3.更新專案以包含最新版Forms核心元件：
+## &#x200B;3.  更新專案以包含最新版Forms核心元件：
 
 1. 開啟[AEM原型專案資料夾]/pom.xml以進行編輯。
 
 
 1. 儲存並關閉檔案。
 
-## 4.將更新提交到您的Git存放庫並執行管道以部署存放庫 {#Commit-the-updates-to-your-git-repository}
+## &#x200B;4. 提交更新到您的Git存放庫並執行管道以部署存放庫 {#Commit-the-updates-to-your-git-repository}
 
 1. 若要將程式碼認可到您的Git存放庫：
    1. 開啟終端機或命令提示。
@@ -303,7 +303,7 @@ ht-degree: 52%
       git push origin
       ```
 
-1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道執行成功後，Adaptive Forms核心元件會針對對應的環境啟用。 此外，調適型表單 (核心元件) 範本和 Canvas 3.0 主題新增至您的 Forms as a Cloud Service 環境中，為您提供自訂和建以核心元件為主調適型表單的選項。
 
@@ -316,7 +316,7 @@ ht-degree: 52%
 
 ### 啟用核心元件時新增哪些功能？ {#core-components-capabilities}
 
-當為您的環境啟用調適型表單核心元件時，一個以核心元件為主的調適型表單空白範本和 Canvas 3.0 主題會新增至您的環境中。為您的環境啟用調適型表單核心元件後，您可以：
+當為您的環境啟用調適型表單核心元件時，一個以核心元件為主的調適型表單空白範本和 Canvas 3.0 主題會新增至您的環境中。 為您的環境啟用調適型表單核心元件後，您可以：
 
 * 建立以最適化Forms為基礎的核心元件。
 * 建立以核心元件為基礎的最適化表單範本。

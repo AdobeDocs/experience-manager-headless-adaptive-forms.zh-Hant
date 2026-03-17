@@ -7,18 +7,18 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless，適用性表單，Visual Studio程式碼擴充功能
-hide: false
+index: true
 exl-id: 11960e91-6c09-48d4-9d57-37537f808cd4
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # 適用於Headless最適化表單的Microsoft Visual Studio Code擴充功能
 
-如果您使用Microsoft® Visual Studio Code做為IDE （整合式開發環境），您可以使用適用於Microsoft Visual Studio Code的Adaptive Forms擴充功能。 擴充功能：
+如果您使用® Visual Studio Code做為IDE （整合式開發環境），您可以使用適用於Microsoft Visual Studio Code的Adaptive Forms擴充功能。 擴充功能：
 
 * 在Visual Studio Code中新增最適化Forms的IntelliSense功能。
 * 協助驗證及自動完成Headless最適化表單元件的JSON語法。

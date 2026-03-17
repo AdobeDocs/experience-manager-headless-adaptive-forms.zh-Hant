@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 topic-tags: develop
 hide: true
 exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '2134'
-ht-degree: 40%
+source-wordcount: '2311'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 40%
 
 ## 實驗室概觀 {#lab-overview}
 
-在這個實作實驗室中，您將瞭解如何使用AEM Forms搭配最新核心元件(與AEM Sites搭配使用)來快速建立調適型表單。 將這些表單作為Headless體驗傳送至Web、行動和聊天頻道，以實現無縫的全通道資料擷取。 您還將學習有關樣式、自訂和前端開發的最佳實務。
+在這個實作實驗室中，您將瞭解如何使用AEM Forms搭配最新核心元件（與AEM Sites搭配使用）來快速建立調適型表單。 將這些表單作為Headless體驗傳送至Web、行動和聊天頻道，以實現無縫的全通道資料擷取。 您還將學習有關樣式、自訂和前端開發的最佳實務。
 
 ## 關鍵重點 {#key-takeaways}
 
@@ -59,11 +59,11 @@ ht-degree: 40%
 1. 開啟瀏覽器，然後輸入作者環境的URL。 例如：
    [https://localhost:4502](https://localhost:4502)。
 
-1. 登入後，瀏覽至 AEM Forms UI。點擊 **Forms**。
+1. 登入後，瀏覽至 AEM Forms UI。 點擊 **Forms**。
 
    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
-1. 點擊&#x200B;**表單和文件**。關閉任何與偏好設定或資訊相關的快顯視窗。
+1. 點擊&#x200B;**表單和文件**。 關閉任何與偏好設定或資訊相關的快顯視窗。
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
@@ -86,11 +86,9 @@ ht-degree: 40%
 1. 為表單建立一個提交端點：
 
    1. 在新的瀏覽器標籤中打開 <https://pipedream.com/requestbin>。
-
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
    1. 點選 **Create a public bin** 並複製端點 URL。
-
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
    此特定端點可作為提交和檢視資料的範例。 在實際生產中，您會使用自己的端點或資料來源來儲存擷取的資料。
@@ -100,20 +98,17 @@ ht-degree: 40%
    1. 在第1課使用的瀏覽器標籤中，導覽至AEM Forms網頁介面，並導覽至&#x200B;**Forms** > **Forms和檔案**。
 
    1. 點選 **Create** 並選擇 Adaptive Form。
-
       ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
 
    1. 從範本選取畫面選取&#x200B;**Blank with Core Components**&#x200B;範本，如下所示，然後按一下&#x200B;**下一步**。
-
       ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
 
    1. 指定`Contact us`作為表單的&#x200B;**標題**。 確定表單的&#x200B;**名稱**&#x200B;是`contact-us`。
-
       ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
 
-   1. 按一下「**建立**」。隨即顯示對話方塊。
+   1. 按一下「**建立**」。 隨即顯示對話方塊。
 
-   1. 在對話方塊中，按一下&#x200B;**編輯**。 表單會在最適化表單編輯器中開啟。 關閉任何快顯視窗或對話方塊，以取得偏好設定或資訊。
+   1. 在對話方塊中，按一下&#x200B;**編輯**。 表單會在最適化表單編輯器中開啟。 關閉任何與偏好設定或資訊相關的快顯視窗或對話框。
 
    1. 開啟「元件」瀏覽器，並將「面板」元件拖放至畫面中央。
 
@@ -212,7 +207,7 @@ ht-degree: 40%
 
    >[!NOTE]
    >
-   > * 如果您收到要求透過`npm`命令更新`npm notice Run npm nstall -g npm@9.6.0`的訊息，請忽略該訊息。
+   > * 如果您收到要求透過`npm notice Run npm nstall -g npm@9.6.0`命令更新`npm`的訊息，請忽略該訊息。
    > * 除非在活頁簿中指示您，否則請勿執行其他`npm`命令。
 
 1. 現在，執行以下命令來預覽表單。
@@ -223,7 +218,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   執行上述命令後，等待 `webpack compiled` 訊息。表單會顯示在瀏覽器標籤中。
+   執行上述命令後，等待 `webpack compiled` 訊息。 表單會顯示在瀏覽器標籤中。
 
    >[!NOTE]
    >
@@ -233,7 +228,7 @@ ht-degree: 40%
    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
 
 
-1. 在 Visual Studio Code 中，打開 `PROJECT\src\site\_variables.scss` 檔案。請注意，`$error` 顏色是紅色陰影。
+1. 在 Visual Studio Code 中，打開 `PROJECT\src\site\_variables.scss` 檔案。 請注意，`$error` 顏色是紅色陰影。
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
@@ -243,7 +238,7 @@ ht-degree: 40%
 
 1. 將 **$error** 顏色設定為 **#5736eb** 並儲存檔案。
 
-1. 重新整理瀏覽器並提交表單。請注意，名字欄位上的錯誤顏色已相應變更。
+1. 重新整理瀏覽器並提交表單。 請注意，名字欄位上的錯誤顏色已相應變更。
 
    ![](/help/assets/error-color-after.png)
 
@@ -305,7 +300,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028117729.png)
 
-1. 為 .env 檔案中的變數設定以下值。更新變數後，儲存檔案。
+1. 為 .env 檔案中的變數設定以下值。 更新變數後，儲存檔案。
 
    * **AEM_URL**：指定發佈環境的URL。 例如 `https://localhost:4503/`
 
@@ -343,9 +338,9 @@ ht-degree: 40%
 
 讓我們以業務使用者的身份對伺服器上的表單進行變更，並自動查看反映在無頭表單中的變更。
 
-1. 在瀏覽器中打開 AEM Forms 管理介面。例如，[http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)。
+1. 在瀏覽器中打開 AEM Forms 管理介面。 例如，[http://localhost:4502/aem/forms.html/content/dam/formsanddocuments](http://localhost:4502/aem/forms.html/content/dam/formsanddocuments)。
 
-1. 選取&#x200B;**連絡我們**&#x200B;表單，然後按一下&#x200B;**編輯。**&#x200B;它會在最適化Forms編輯器中開啟表單。
+1. 選取&#x200B;**連絡我們**&#x200B;表單，然後按一下&#x200B;**編輯**。 這會在最適化Forms編輯器中開啟表單。
 
 
 1. 選取&#x200B;**聯絡電話**&#x200B;欄位，然後按一下工具列中的&#x200B;**編輯圖示（鉛筆圖示）**。 如果您看不到彈出式工具列，請切換到編輯模式。 按一下&#x200B;**預覽**&#x200B;按鈕右上角的&#x200B;**編輯**&#x200B;按鈕。
@@ -359,18 +354,18 @@ ht-degree: 40%
 1. 在AEM Forms管理介面標籤中，選取與我們聯絡表單，然後按一下&#x200B;**取消發佈**。 如果您沒有看到&#x200B;**取消發佈**&#x200B;按鈕，請跳至第 3 步直接發佈變更。
 
 
-1. 點擊&#x200B;**取消發佈**。在相應的對話框中點擊&#x200B;**關閉**。
+1. 點擊&#x200B;**取消發佈**。 在相應的對話框中點擊&#x200B;**關閉**。
 
 1. 瀏覽器重新整理後，請選取與我們連絡的表單，然後按一下&#x200B;**發佈**。
 
 
-1. 點擊&#x200B;**發佈**。在相應的對話框中點擊&#x200B;**關閉**。
+1. 點擊&#x200B;**發佈**。 在相應的對話框中點擊&#x200B;**關閉**。
 
-1. 重新整理顯示無頭表單的瀏覽器標籤。請注意，聯絡人號碼標籤已變更為行動電話號碼。
+1. 重新整理顯示無頭表單的瀏覽器標籤。 請注意，聯絡人號碼標籤已變更為行動電話號碼。
 
    ![](/help/assets/headless-adaptive-form.png)
 
-1. 打開用於啟動 **react-starter-kit-aem-headless-forms** 專案的命令提示字元視窗，**按 CTRL+C**，然後輸入 **Y**，並按 Enter 鍵終止 npm 程序。停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
+1. 打開用於啟動 **react-starter-kit-aem-headless-forms** 專案的命令提示字元視窗，**按 CTRL+C**，然後輸入 **Y**，並按 Enter 鍵終止 npm 程序。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
 
 1. 關閉 Visual Studio Code 和命令提示字元視窗。
 
@@ -431,7 +426,7 @@ ht-degree: 40%
 
    ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
 
-1. 為 .env 檔案中的變數設定以下值。更新變數後，儲存檔案。 使用 **CTRL + S** 切換組合以儲存檔案。
+1. 為 .env 檔案中的變數設定以下值。 更新變數後，儲存檔案。 使用 **CTRL + S** 切換組合以儲存檔案。
 
    * **AEM_URL**：指定發佈環境的URL。 例如，[https://localhost:4503](https://localhost:4503)
 
@@ -454,7 +449,7 @@ ht-degree: 40%
 
    ![](/help/assets/lab65-mui-starter-kit-start.png)
 
-   該命令會啟動本機開發伺服器，並使用AEM素材UI前端程式庫，以Headless方式呈現從Google擷取的表單定義。
+   該命令會啟動本機開發伺服器，並使用 Google Material UI 前端庫以無頭方式呈現從 AEM 擷取的表單定義。
 
    >[!NOTE]
    >
@@ -474,11 +469,11 @@ ht-degree: 40%
 
 ### 練習
 
-更新無頭專案中元件的變體。將 Material UI 文字輸入元件的變體變更為 `OutlinedInput`：
+更新無頭專案中元件的變體。 將 Material UI 文字輸入元件的變體變更為 `OutlinedInput`：
 
 1. 在 Visual Code 中，透過打開位於 `src/components/textinput/index.tsx` 的 `index.tsx` 檔案瀏覽到文字輸入元件。
 
-1. 在程式碼 104 行的開頭新增 `//`。這會將行轉換為註解。
+1. 在程式碼 104 行的開頭新增 `//`。 這會將行轉換為註解。
 
    ```Shell
    //const Cmp = \'outlined\' === appliedCssClassNames ? OutlinedInput: Input;
@@ -492,7 +487,7 @@ ht-degree: 40%
 
    ![](/help/assets/aem65-lab-code-update.png)
 
-   必須對「OverridedInput」變體使用正確的大小寫，否則編譯會失敗。 本機開發環境編譯會在命令提示字元中自動開始。等到您看到以下訊息
+   必須對「OverridedInput」變體使用正確的大小寫，否則編譯會失敗。 本機開發環境編譯會在命令提示字元中自動開始。 等到您看到以下訊息
 
    `webpack 5.75.0 compiled with 3 warnings in 6659 ms`
    `inside proxy req`
@@ -503,7 +498,7 @@ ht-degree: 40%
    ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
 
 
-   此變更適用於終端使用者，無需對 AEM Forms Server 中的表單定義進行任何變更，且是針對考慮中的無頭通道。例如，本實驗中的網路管道。
+   此變更適用於終端使用者，無需對 AEM Forms Server 中的表單定義進行任何變更，且是針對考慮中的無頭通道。 例如，本實驗中的網路管道。
 
    ![](/help/assets/aem65-lab-mui-style-update.png)
 
@@ -512,13 +507,13 @@ ht-degree: 40%
 
 ## 常見問題集 (FAQ)
 
-+++ 核心元件是否可公開使用？
++++ 核心元件是否可公開使用？  
 
 是，最適化Forms核心元件可與AEM 6.5 Forms和Forms as Cloud Service搭配使用。 您需要AEM Forms 6.5 Service Pack 16或更新版本，才能使用最適化Forms核心元件。
 
 +++
 
-+++ Headless 表單是否需要單獨授權？
++++ Headless 表單是否需要單獨授權？  
 
 不用，Headless 表單使用相同的授權值量度，即表單提交次數。
 
@@ -533,12 +528,12 @@ ht-degree: 40%
 
 ## 資源
 
-* [最適化表單核心元件簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [最適化表單核心元件簡介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [更新核心元件型 AF 的樣式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [更新核心元件型AF的樣式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [Headless最適化Forms](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [Headless最適化Forms](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入門套件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入門套件](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)

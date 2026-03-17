@@ -6,9 +6,9 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: 5aba1821-35dc-4da4-b188-d4853d64d5ee
-source-git-commit: 780f06a39c75dbf8795ac7a971150410ed7981e9
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%

@@ -3,10 +3,10 @@ title: 設定AEM Headless最適化表單的開發環境
 description: 設定AEM Headless最適化表單的開發環境
 hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 893f0428c08e6216cb293ab2f4c427b7d1c26060
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 3%
 
 ---
 
@@ -14,10 +14,12 @@ ht-degree: 1%
 # 設定本機開發環境 {#headless-adaptive-forms-setup-development-environment}
 
 您可以設定本機開發環境，以在本機電腦上建立和測試Headless最適化表單。 開發環境包含安裝在AEM SDK上的AEM SDK和AEM Forms功能封存。
-<!--
- After a Headless adaptive form or related assets are ready on the local development environment, you can deploy the Headless adaptive form application to your publishing environment. -- >
 
-You require knowledge to build application using react, Git, and Maven to use Headless adaptive forms.
+<!--
+ After a Headless adaptive form or related assets are ready on the local development environment, you can deploy the Headless adaptive form application to your publishing environment. 
+-->
+
+您需要相關知識，才能使用react、Git和Maven建立應用程式，以使用Headless調適型表單。
 
 <!-- 
 
@@ -34,13 +36,14 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 1. Navigate to the **[!UICONTROL AEM as a Cloud Service]** tab.
 1. Sort by published date in descending order.
 1. Click on the latest Adobe Experience Manager as a Cloud Service SDK or Forms feature archive (AEM Forms add-on).
-1. Review and accept the EULA. Tap the **[!UICONTROL Download]** button. -->
+1. Review and accept the EULA. Tap the **[!UICONTROL Download]** button. 
+-->
 
 ## 系統需求 {#headless-adaptive-forms-system-requirements}
 
 若要安裝AEM SDK，您的本機電腦必須符合下列最低需求：
 
-* [Java Development Kit 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p=list&p.offset=limit&p.offset=0&p.limit=14&p.limit=144)
+* [Java Development Kit 11](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3AsoftwareType&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=software-type%3Atooling&fulltext=Oracle%7E+JDK%7E+11%7E&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=14)
 * [最新版本的Git](https://git-scm.com/downloads)。 若您為Git的新手，請參閱[安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
 * [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。<!-- URL is 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs). -->
 * [Maven 3.6或更新版本](https://maven.apache.org/download.cgi)。 如果您是Maven的新手，請參閱[安裝Apache Maven](https://maven.apache.org/install.html)。
@@ -50,7 +53,7 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 若要設定新的本機開發環境，並使用它來開發和測試Headless調適型表單：
 
 1. [設定AEM as a Cloud Service SDK](#setup-author-instance)。
-1. [將AEM Forms封存(AEM Forms Cloud Service附加元件)新增至AEM SDK](#add-forms-archive)。
+1. [將AEM Forms封存（AEM Forms Cloud Service附加元件）新增至AEM SDK](#add-forms-archive)。
 
 <!--
 
@@ -59,7 +62,7 @@ To download the supported version of Adobe Experience Manager as a Cloud Service
 
 -->
 
-### 1.設定AEM as a Cloud Service SDK {#setup-author-instance}
+### &#x200B;1. 設定AEM as a Cloud Service SDK {#setup-author-instance}
 
 AEM as a Cloud Service SDK (AEM SDK)為開發人員提供建立和測試Headless最適化表單的本機體驗。 您可以使用AEM as a Cloud Service SDK來建立和預覽Headless最適化表單，好讓您在本機執行與開發相關的大多數驗證。 若要設定本機編寫執行個體：
 
@@ -75,7 +78,7 @@ AEM as a Cloud Service SDK (AEM SDK)為開發人員提供建立和測試Headless
 
    >[!NOTE]
    >
-   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
+   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
 
 1. 開啟命令提示字元：
    * 在Windows上，使用&#x200B;**以系統管理員身分執行**&#x200B;選項，以提升許可權模式開啟命令提示字元。
@@ -98,11 +101,11 @@ AEM as a Cloud Service SDK (AEM SDK)為開發人員提供建立和測試Headless
 
 如果您沒有看到PRERELEASE後修正，請停止伺服器、刪除`[AEM SDK installation]/crx-quickstart folder`，然後使用`-r prerelease`引數重新啟動AEM SDK .jar檔案。 如需更多選項，請參閱[疑難排解](/help/troubleshooting.md)。
 
-### 2.將AEM Forms封存(AEM Forms Cloud Service附加元件)新增至AEM SDK {#add-forms-archive}
+### &#x200B;2. 將AEM Forms封存（AEM Forms Cloud Service附加元件）新增至AEM SDK {#add-forms-archive}
 
-AEM Forms as a Cloud Service功能封存(AEM Forms Cloud Service附加元件)提供在本機開發環境中建立Headless最適化表單的工具。 若要安裝功能封存：
+AEM Forms as a Cloud Service功能封存（AEM Forms Cloud Service附加元件）提供在本機開發環境中建立Headless最適化表單的工具。 若要安裝功能封存：
 
-1. 從[!DNL AEM Forms]Software Distribution[下載並解壓縮最新的](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20)功能封存(AEM Forms附加元件)。 使用發佈日期欄來排序並輕鬆找到最新的SDK。 支援的版本為aem-forms-addon-2022.07.06.02-220600和更新版本。
+1. 從[Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aemcloud.html?fulltext=AEM*+Forms*+add*+on*&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=20)下載並解壓縮最新的[!DNL AEM Forms]功能封存（AEM Forms附加元件）。 使用發佈日期欄來排序並輕鬆找到最新的SDK。 支援的版本為aem-forms-addon-2022.07.06.02-220600和更新版本。
 
 1. 導覽至crx-quickstart/install目錄。 如果資料夾不存在，請建立它。
 1. 停止您的AEM SDK執行個體。 您可以終止執行AEM SDK例項的命令提示字元視窗，以停止AEM。
@@ -128,8 +131,10 @@ Create seperate user accounts for Form Developer, Form Practitioner, and end use
     | Customer Experience Lead or UX Designer| [!DNL forms-users], [!DNL template-authors]|
     | AEM administrator | [!DNL aem-administrators], [!DNL fd-administrators] |
     | End user| When a user must log in to view and submit an Adaptive Form, add such users to [!DNL forms-users] group. </br> When no user authentication is required to access Adaptive Forms, do not assign any group to such users.|
+-->
 
-<!-- ### 4. (Optional) Install Visual Studio Code extension for Headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
+<!-- 
+### 4. (Optional) Install Visual Studio Code extension for Headless adaptive forms {#microsoft-visual-studio-code-extension-for-headless-adaptive-forms}
 
 You can use any IDE for developing Headless adaptive forms. Adobe provides an extension for Microsoft&reg;reg; Visual Studio Code to make it easier for you to navigate structure and develop Headless adaptive forms. The extension adds adaptive forms related IntelliSense capabilities and helps auto-complete Headless adaptive forms JSON syntax. It also adds a panel, titled Forms Tree, to help navigate structure of Headless adaptive form. To use the extension: 
 
@@ -152,8 +157,10 @@ You can use any IDE for developing Headless adaptive forms. Adobe provides an ex
     </br> 
 
     ![Installing extension](/help/assets/install-extension.png)
+-->
 
-<!-- ## Create and setup a react app
+<!--
+## Create and setup a react app
 
 Adaptive forms renderer component is a react based component. It requires a react app to run and render a Headless adaptive form. To create and setup react app:
 
@@ -186,7 +193,10 @@ Adaptive forms renderer component is a react based component. It requires a reac
     npm i --save @aemforms/forms-super-component @aemforms/forms-react-core-components @aemforms/forms-super-component @adobe/react-spectrum @react/react-spectrum
     ```
 
-<!-- 1. Install dependencies for adaptive forms renderer component. Packages for these dependencies are available in Adobe Artifactory. To authenticate with Adobe Artifactory and install dependencies for adaptive forms renderer component:
+-->
+
+<!-- 
+    1. Install dependencies for adaptive forms renderer component. Packages for these dependencies are available in Adobe Artifactory. To authenticate with Adobe Artifactory and install dependencies for adaptive forms renderer component:
 
     1. Create environment variables ARTIFACTORY_USER and ARTIFACTORY_API_TOKEN. The ARTIFACTORY_USER stores Adobe LDAP username and ARTIFACTORY_API_TOKEN stores your [Adobe Artifactory token](https://wiki.corp.adobe.com/display/Artifactory/API+Keys)
 
@@ -225,6 +235,7 @@ Adaptive forms renderer component is a react based component. It requires a reac
     ```shell
     npm i --save @aemforms/crispr-react-bindings @aemforms/crispr-react-core-components @adobe/react-spectrum @react/react-spectrum
     ```
- 
+
 -->
+
 您的本機環境已就緒。 您可以繼續建立Headless最適化表單。

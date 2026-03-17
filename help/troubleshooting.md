@@ -7,12 +7,12 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: false
+index: true
 exl-id: bfb7e688-d2be-4aaa-ac9b-147cbd74b516
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 6%
+source-wordcount: '152'
+ht-degree: 7%
 
 ---
 
