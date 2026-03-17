@@ -212,7 +212,7 @@ Headless表單最適合您下列需求：
 * **預填和提交** - [預填](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)和提交可以點選REST端點，因此您可以從CRM、DAM或商務後端預填和提交到相同或不同的系統。 AEM Forms也支援[Microsoft Dynamics和Salesforce](faq.md)、REST、電子郵件和自訂提交動作。
 * **Forms資料模型** - AEM Forms提供Forms資料模型，可連線至不同的資料來源；Headless表單可使用這些功能進行預填、驗證和提交，而不需要您自行建立每個整合。
 
-若為行動與離線案例，建議透過Headless最適化Forms API](mobile-forms-best-practices.md) [建置您自己的應用程式並擷取表單定義。
+若為行動與離線案例，建議透過Headless最適化Forms API[&#128279;](mobile-forms-best-practices.md) 建置您自己的應用程式並擷取表單定義。
 
 ## 另請參閱 {#see-also}
 

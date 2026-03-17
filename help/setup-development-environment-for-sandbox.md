@@ -26,7 +26,7 @@ ht-degree: 4%
 
 * 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program)文章的步驟1-7為您的組織建立方案。
 
-* 為您的Cloud Service方案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)啟用[發行前通道。
+* 為您的Cloud Service方案[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)啟用發行前通道。
 
 ## 設定工作流程
 
@@ -61,7 +61,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 在您的方案中，點選……圖示，然後選取<b>編輯方案</b>選項。 對話方塊隨即顯示。 
+    &#x200B;3. 在您的方案中，點選……圖示，然後選取<b>編輯方案</b>選項。 對話方塊隨即顯示。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -72,7 +72,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    4. 在[編輯程式]對話方塊中，移至<b>解決方案和附加元件索引標籤</b>，選取<b> Forms — 數位註冊</b>選項，然後點選<b>更新</b>。 
+    &#x200B;4. 在[編輯程式]對話方塊中，移至<b>解決方案和附加元件索引標籤</b>，選取<b> Forms — 數位註冊</b>選項，然後點選<b>更新</b>。 
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
@@ -117,7 +117,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 在您的本機電腦上，開啟命令提示字元、建立資料夾，然後執行下列命令，並提供存放庫認證（已要求）：
+    &#x200B;3. 在您的本機電腦上，開啟命令提示字元、建立資料夾，然後執行下列命令，並提供存放庫認證（已要求）：
     </br>
     <code> git clone [Repository URL] </code> </br></br>
     例如， </br> 
@@ -243,7 +243,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    3. 針對您的管道，點選……圖示，然後選取<b>執行</b>選項。 如果系統提示您執行管道，請點選<b>執行</b>並等候管道<b>狀態</b>變更為<b>已完成</b>。  
+    &#x200B;3. 針對您的管道，點選……圖示，然後選取<b>執行</b>選項。 如果系統提示您執行管道，請點選<b>執行</b>並等候管道<b>狀態</b>變更為<b>已完成</b>。  
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
