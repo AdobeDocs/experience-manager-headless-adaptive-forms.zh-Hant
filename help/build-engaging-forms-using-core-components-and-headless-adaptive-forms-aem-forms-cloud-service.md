@@ -7,8 +7,8 @@ topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
 workflow-type: tm+mt
-source-wordcount: '2452'
-ht-degree: 56%
+source-wordcount: '2629'
+ht-degree: 55%
 
 ---
 
@@ -86,7 +86,6 @@ ht-degree: 56%
 
    1. 在新的瀏覽器標籤中打開 <https://pipedream.com/requestbin>。
    1. 點選 **Create a public bin** 並複製端點 URL。
-
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
@@ -94,29 +93,23 @@ ht-degree: 56%
 1. 使用精靈介面編寫最適化表單：
 
    1. 在第 1 課中使用的瀏覽器標籤中，導覽至 AEM Forms as Cloud Service Web 介面，然後導覽至 Forms and Documents。
-
       ![](/help/assets/screenshot2028114029.png)
 
    1. 按一下&#x200B;**建立** > **最適化表單**。
-
       ![](/help/assets/screenshot2028114629.png)
 
    1. 從範本選擇畫面中選擇 **Blank with Core Components** 範本，如下所示：
-
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
-   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**&#x200B;主題，如下圖：
-
+   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**主題，如下圖：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**&#x200B;欄位的公用bin，如下所示：
-
+   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**欄位的公用bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
-   1. 按一下「**建立**」。在您的表單上指定名稱和標題。 例如，**註冊**。 按一下&#x200B;**建立**。
+   1. 按一下「**建立**」。 在您的表單上指定名稱和標題。 例如，**註冊**。 按一下&#x200B;**建立**。
 
-   1. 最適化表單編輯器打開。關閉任何與偏好設定或資訊相關的快顯視窗或對話框。按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**&#x200B;元件分別新增至空白表單的頂端和底部。
-
+   1. 最適化表單編輯器打開。 關閉任何與偏好設定或資訊相關的快顯視窗或對話框。 按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**元件分別新增至空白表單的頂端和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
@@ -125,10 +118,9 @@ ht-degree: 56%
 
 1. 將驗證新增至表單：
 
-   1. 點選&#x200B;**電話號碼**&#x200B;元件，快顯視窗選單隨即顯示。點擊選單中的&#x200B;**扳手圖示**&#x200B;以設定欄位。
+   1. 點選&#x200B;**電話號碼**&#x200B;元件，快顯視窗選單隨即顯示。 點擊選單中的&#x200B;**扳手圖示**&#x200B;以設定欄位。
 
-   1. 打開&#x200B;**驗證標籤**，標記欄位&#x200B;**必要**，然後點擊&#x200B;**完成**。成功訊息隨即顯示。
-
+   1. 打開&#x200B;**驗證標籤**，標記欄位&#x200B;**必要**，然後點擊&#x200B;**完成**。 成功訊息隨即顯示。
       ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
 
       ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
@@ -140,11 +132,9 @@ ht-degree: 56%
    1. 以虛擬資料填入表單。
 
    1. 提交表單。
-
       ![](/help/assets/screenshot2028125729.png)
 
    1. 在 Request Bin 標籤中，檢查提交的資料。
-
       ![](/help/assets/screenshot2028125829.png)
 
 1. 使用規則將互動性新增至表單：
@@ -214,7 +204,7 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
 
-1. 要呈現在您的雲端服務發佈環境中託管的表單，請重新命名 `env_template` 文件。要重新命名檔案，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
+1. 要呈現在您的雲端服務發佈環境中託管的表單，請重新命名 `env_template` 文件。  要重新命名檔案，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
 
    ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
@@ -224,9 +214,9 @@ ht-degree: 56%
 
 1. 為.env檔案中的變數設定下列值，並儲存檔案：
 
-   * **AEM_URL**：指定您的雲端服務發佈環境。例如 `https://publish-p105303-e986623.adobeaemcloud.com/`
+   * **AEM_URL**：指定您的雲端服務發佈環境。 例如 `https://publish-p105303-e986623.adobeaemcloud.com/`
 
-   * **AEM_ADAPTIVE_FORM**：指定表單的路徑。例如，如果表單路徑為 `/content/forms/af/registration`，則此變數的值將為 `registration`。
+   * **AEM_ADAPTIVE_FORM**：指定表單的路徑。 例如，如果表單路徑為 `/content/forms/af/registration`，則此變數的值將為 `registration`。
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
@@ -247,7 +237,7 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   > * 如果您收到要求透過`npm`命令更新`npm notice Run npm nstall -g npm@9.6.0`的訊息，請忽略該訊息。
+   > * 如果您收到要求透過`npm notice Run npm nstall -g npm@9.6.0`命令更新`npm`的訊息，請忽略該訊息。
    > * 除非在活頁簿中指示您，否則請勿執行其他`npm`命令。
 
 1. 現在，執行以下命令來預覽表單。
@@ -271,7 +261,7 @@ ht-degree: 56%
    ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
 
 
-1. 在 Visual Studio Code 中，打開 `PROJECT\src\site\_variables.scss` 檔案。請注意，`$error` 顏色是紅色陰影。
+1. 在 Visual Studio Code 中，打開 `PROJECT\src\site\_variables.scss` 檔案。 請注意，`$error` 顏色是紅色陰影。
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
@@ -283,7 +273,7 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
 
-1. 重新整理瀏覽器並提交表單。請注意，名字欄位上的錯誤顏色已相應變更。
+1. 重新整理瀏覽器並提交表單。 請注意，名字欄位上的錯誤顏色已相應變更。
 
    ![](/help/assets/screenshot2028121129.png)
 
@@ -345,10 +335,10 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028117729.png)
 
-1. 為 .env 檔案中的變數設定以下值。更新變數後，儲存檔案。
-   * **AEM_URL**：指定雲端服務發佈環境的 URL。例如 `https://publish-p105303-e986623.adobeaemcloud.com`
+1. 為 .env 檔案中的變數設定以下值。 更新變數後，儲存檔案。
+   * **AEM_URL**：指定雲端服務發佈環境的 URL。 例如 `https://publish-p105303-e986623.adobeaemcloud.com`
 
-   * **AEM_FORM_PATH**：指定上節課程所建最適化表單的路徑。例如 `/content/forms/af/registration/`
+   * **AEM_FORM_PATH**：指定上節課程所建最適化表單的路徑。 例如 `/content/forms/af/registration/`
 
      ![](/help/assets/screenshot202023-03-0820at202.49.1820pm.png)
 
@@ -380,7 +370,7 @@ ht-degree: 56%
 
 讓我們檢查此Headless表單中的規則執行：
 
-1. 選取&#x200B;**勾選此項以享受 5% 折扣**&#x200B;選項。申請信用卡的後續選項已停用。
+1. 選取&#x200B;**勾選此項以享受 5% 折扣**&#x200B;選項。 申請信用卡的後續選項已停用。
 
    ![](/help/assets/screenshot2028126229.png)
 
@@ -392,32 +382,32 @@ ht-degree: 56%
 
 1. 在瀏覽器中，開啟AEM Forms管理介面。<!-- URL is 404. Consider saying the path is for illlustration purposes only. For example, [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/forms.html/content/dam/formsanddocuments](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/forms.html/content/dam/formsanddocuments). -->
 
-1. 選取&#x200B;**`contactus`**&#x200B;表單並按一下&#x200B;**編輯。**&#x200B;這會在最適化表單編輯器中打開表單。
+1. 選取&#x200B;**`contactus`**&#x200B;表單，然後按一下&#x200B;**編輯。** 這會在最適化表單編輯器中開啟表單。
 
 
-1. 選取&#x200B;**電話號碼**&#x200B;欄位，然後點選工具列中的&#x200B;**編輯圖示 (鉛筆圖示)**。如果您看不到彈出式工具列，請切換到編輯模式。 按一下右上角的&#x200B;**編輯**&#x200B;按鈕，左到&#x200B;**預覽**&#x200B;按鈕。
+1. 選取&#x200B;**電話號碼**&#x200B;欄位，然後點選工具列中的&#x200B;**編輯圖示 (鉛筆圖示)**。 如果您看不到彈出式工具列，請切換到編輯模式。 按一下右上角的&#x200B;**編輯**&#x200B;按鈕，左到&#x200B;**預覽**&#x200B;按鈕。
 
    ![](/help/assets/screenshot2028119629.png)
 
-1. 將標籤變更為手機號碼。點擊表單中的任何空白區域將儲存對表單所做的變更。
+1. 將標籤變更為手機號碼。 點擊表單中的任何空白區域將儲存對表單所做的變更。
 
    ![](/help/assets/screenshot2028119729.png)
 
 讓我們發佈更新的表單，以將變更傳播到已發佈的環境。
 
-1. 在 AEM Forms 管理介面標籤中，選擇註冊表單，然後點擊&#x200B;**取消發佈**。如果您沒有看到&#x200B;**取消發佈**&#x200B;按鈕，請跳至第 3 步直接發佈變更。
+1. 在 AEM Forms 管理介面標籤中，選擇註冊表單，然後點擊&#x200B;**取消發佈**。 如果您沒有看到&#x200B;**取消發佈**&#x200B;按鈕，請跳至第 3 步直接發佈變更。
 
-1. 點擊&#x200B;**取消發佈**。在相應的對話框中點擊&#x200B;**關閉**。
+1. 點擊&#x200B;**取消發佈**。 在相應的對話框中點擊&#x200B;**關閉**。
 
 1. 瀏覽器重新整理後，選擇註冊表單，然後點擊&#x200B;**發佈**。
 
-1. 點擊&#x200B;**發佈**。在相應的對話框中點擊&#x200B;**關閉**。
+1. 點擊&#x200B;**發佈**。 在相應的對話框中點擊&#x200B;**關閉**。
 
-1. 重新整理顯示無頭表單的瀏覽器標籤。請注意，電話號碼標籤已變更為行動電話號碼。
+1. 重新整理顯示無頭表單的瀏覽器標籤。 請注意，電話號碼標籤已變更為行動電話號碼。
 
    ![](/help/assets/screenshot2028120529.png)
 
-1. 打開用於啟動 **react-starter-kit-aem-headless-forms** 專案的命令提示字元視窗，**按 CTRL+C**，然後輸入 **Y**，並按 Enter 鍵終止 npm 程序。停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
+1. 打開用於啟動 **react-starter-kit-aem-headless-forms** 專案的命令提示字元視窗，**按 CTRL+C**，然後輸入 **Y**，並按 Enter 鍵終止 npm 程序。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
 
 1. 關閉 Visual Studio Code 和命令提示字元視窗。
 
@@ -479,11 +469,11 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028126629.png){width="50%" align="left"}
 
-1. 為 .env 檔案中的變數設定以下值。更新變數後，儲存檔案。 使用 **CTRL + S** 切換組合以儲存檔案。
+1. 為 .env 檔案中的變數設定以下值。 更新變數後，儲存檔案。 使用 **CTRL + S** 切換組合以儲存檔案。
 
-   * **AEM_URL**：指定雲端服務發佈環境的 URL。例如 [https://publish-p105303-e986623.adobeaemcloud.com](https://publish-p105303-e986623.adobeaemcloud.com/)
+   * **AEM_URL**：指定雲端服務發佈環境的 URL。 例如 [https://publish-p105303-e986623.adobeaemcloud.com](https://publish-p105303-e986623.adobeaemcloud.com/)
 
-   * **AEM_FORM_PATH**：指定上節課程所建最適化表單的路徑。例如 /content/forms/af/registration/
+   * **AEM_FORM_PATH**：指定上節課程所建最適化表單的路徑。 例如 /content/forms/af/registration/
 
      ![](/help/assets/screenshot2028126929.png)
 
@@ -513,7 +503,7 @@ ht-degree: 56%
 
 1. 若要評估此表單轉譯中相同商業邏輯的執行情況：
 
-   選取&#x200B;**勾選此項以享受 5% 折扣**。後續選項&#x200B;**您要申請`We.Finance`公司信用卡表單嗎？**&#x200B;將會停用。
+   選取&#x200B;**勾選此項以享受 5% 折扣**。 後續選項&#x200B;**您要申請`We.Finance`公司信用卡表單嗎？** 會停用。
 
    ![](/help/assets/screenshot2028127329.png){width="50%" align="left"}
 
@@ -529,11 +519,11 @@ ht-degree: 56%
 
 ### 練習
 
-更新無頭專案中元件的變體。將 Material UI 文字輸入元件的變體變更為 `OutlinedInput`：
+更新無頭專案中元件的變體。 將 Material UI 文字輸入元件的變體變更為 `OutlinedInput`：
 
 1. 在 Visual Code 中，透過打開位於 `src/components/textinput/index.tsx` 的 `index.tsx` 檔案瀏覽到文字輸入元件。
 
-1. 在程式碼 103 行的開頭新增 `//`。這會將行轉換為註解。
+1. 在程式碼 103 行的開頭新增 `//`。 這會將行轉換為註解。
 
    ```Shell
    //const Cmp = \'outlined\' === appliedCssClassNames ? OutlinedInput: Input;
@@ -547,7 +537,7 @@ ht-degree: 56%
 
    ![](/help/assets/screenshot2028127629.png)
 
-   必須對「OverridedInput」變體使用正確的大小寫，否則編譯會失敗。 本機開發環境編譯會在命令提示字元中自動開始。等到您看到以下訊息
+   必須對「OverridedInput」變體使用正確的大小寫，否則編譯會失敗。 本機開發環境編譯會在命令提示字元中自動開始。 等到您看到以下訊息
 
    `webpack 5.75.0 compiled with 3 warnings in 6659 ms`
    `inside proxy req`
@@ -558,7 +548,7 @@ ht-degree: 56%
    ![](/help/assets/screenshot2028127729.png)
 
 
-   此變更適用於終端使用者，無需對 AEM Forms Server 中的表單定義進行任何變更，且是針對考慮中的無頭通道。例如，本實驗中的網路管道。
+   此變更適用於終端使用者，無需對 AEM Forms Server 中的表單定義進行任何變更，且是針對考慮中的無頭通道。 例如，本實驗中的網路管道。
 
    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
 
@@ -567,32 +557,32 @@ ht-degree: 56%
 
 ## 常見問題集 (FAQ)
 
-+++ 最適化表單精靈是否可公開使用？
++++ 最適化表單精靈是否可公開使用？  
 
 是的，它可搭配AEM Forms as Cloud Service使用。
 
 +++
 
 
-+++ 核心元件是否已正式推出？
++++ 核心元件是否已正式推出？  
 
 是的，AEM Forms as a Cloud Service 已提供 Adaptive Forms 核心元件。
 
 +++
 
-+++ Headless 表單是否已正式推出？
++++ Headless 表單是否已正式推出？  
 
 是的，AEM Forms as a Cloud Service 已提供 Headless 表單。
 
 +++
 
-+++ Headless 表單是否需要單獨授權？
++++ Headless 表單是否需要單獨授權？  
 
 不用，Headless 表單使用相同的授權值量度，即表單提交次數。
 
 +++
 
-+++ AEM 6.5 Forms是否提供核心元件和Headless表單？
++++ AEM 6.5 Forms是否提供核心元件和Headless表單？  
 
 是的，AEM Forms 6.5 Service Pack 16 及更高版本均提供最適化表單核心元件和無頭表單。
 
@@ -606,12 +596,12 @@ ht-degree: 56%
 
 ## 資源
 
-* [最適化表單核心元件簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [最適化表單核心元件簡介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
-* [更新核心元件型 AF 的樣式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
+* [更新核心元件型AF的樣式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [Headless 最適化表單](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [Headless最適化表單](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入門套件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入門套件](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
