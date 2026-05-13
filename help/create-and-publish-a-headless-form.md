@@ -1,5 +1,5 @@
 ---
-title: 使用Adobe Experience Manager Adaptive Forms建立及發佈Headless表單|逐步指南
+title: 使用Adobe Experience Manager最適化Forms建立並發佈Headless表單 |逐步指南
 description: 在此逐步指南中，瞭解如何使用Adobe Experience Manager的最適化表單來建立和發佈Headless表單。 立即探索無頭式作業的好處，並簡化表單建立流程。 使用Adobe Experience Manager Headless最適化Forms開始建立動態、回應式表單，以便在裝置間順暢運作。
 solution: Experience Manager Forms
 feature: Adaptive Forms
@@ -8,14 +8,17 @@ role: Admin, Developer
 level: Beginner, Intermediate
 index: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
-source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
+TQID: https://experienceleague.adobe.com/f1O-fjIaXVLzKPtCyxy2TeZFXRtdKOE0V2CuXAOcS3I
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: 1037
 ht-degree: 1%
 
 ---
-
-
 
 # 使用React應用程式建立和預覽Headless表單 {#introduction}
 

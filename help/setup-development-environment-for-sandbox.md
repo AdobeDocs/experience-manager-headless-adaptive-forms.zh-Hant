@@ -3,9 +3,14 @@ title: 設定Forms as a Cloud Service沙箱的開發環境
 description: 設定Forms as a Cloud Service沙箱的開發環境。
 hide: true
 exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
-source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
+TQID: https://experienceleague.adobe.com/r2jtS8Z3QIN99-a-z2lLLtW6tVroO3FF--CmzklJVig
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: 1369
 ht-degree: 4%
 
 ---
@@ -24,9 +29,9 @@ ht-degree: 4%
 * 在本機電腦上安裝[Node.js 16.13.0或更新版本](https://nodejs.org/en/download/)。<!-- URL IS 404! If you are new to Node.js, see [How to install Node.js](https://nodejs.org/en/learn/how-to-install-nodejs). -->
 
 
-* 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program)文章的步驟1-7為您的組織建立方案。
+* 建立AEM as a Cloud Service方案：按照[建立方案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program)文章的步驟1-7為您的組織建立方案。
 
-* 為您的Cloud Service方案[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)啟用發行前通道。
+* 為您的Cloud Service方案](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/prerelease#cloud-environments)啟用[發行前通道。
 
 ## 設定工作流程
 
@@ -42,7 +47,7 @@ ht-degree: 4%
   1. 登入<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>並選取<b> Experience Manager </b>選項。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -53,7 +58,7 @@ ht-degree: 4%
   2. 若為<b> Cloud Manager </b>選項，請按一下<b>啟動。</b> 隨即顯示貴組織的計劃清單。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -61,10 +66,10 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    &#x200B;3. 在您的方案中，點選……圖示，然後選取<b>編輯方案</b>選項。 對話方塊隨即顯示。 
+    3. 在您的方案中，點選……圖示，然後選取<b>編輯方案</b>選項。 對話方塊隨即顯示。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/edit-program.png">
     </a>
     <br>
@@ -72,10 +77,10 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    &#x200B;4. 在[編輯程式]對話方塊中，移至<b>解決方案和附加元件索引標籤</b>，選取<b> Forms — 數位註冊</b>選項，然後點選<b>更新</b>。 
+    4. 在[編輯程式]對話方塊中，移至<b>解決方案和附加元件索引標籤</b>，選取<b> Forms — 數位註冊</b>選項，然後點選<b>更新</b>。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/program-solution-addons.png">
     </a>
     <br>
@@ -100,7 +105,7 @@ ht-degree: 4%
   1. 在您的程式的管道方塊中，點選<b>存取存放庫資訊。</b> 會出現一個包含存放庫資訊的對話方塊 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/git-repo.png">
     </a>
     <br>
@@ -117,7 +122,7 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    &#x200B;3. 在您的本機電腦上，開啟命令提示字元、建立資料夾，然後執行下列命令，並提供存放庫認證（已要求）：
+    3. 在您的本機電腦上，開啟命令提示字元、建立資料夾，然後執行下列命令，並提供存放庫認證（已要求）：
     </br>
     <code> git clone [Repository URL] </code> </br></br>
     例如， </br> 
@@ -224,7 +229,7 @@ ht-degree: 4%
   1. 登入<a href="https://experience.adobe.com/" > https://experience.adobe.com/ </a>並選取<b> Experience Manager </b>選項。
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager.png">
     </a>
     <br>
@@ -235,7 +240,7 @@ ht-degree: 4%
   2. 若為<b> Cloud Manager </b>選項，請按一下<b>啟動。</b> 隨即顯示貴組織的計劃清單。 開啟您的程式。 
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/cloud-manager-experience-manager-launch.png">
     </a>
     <br>
@@ -243,10 +248,10 @@ ht-degree: 4%
 </tr>
 <tr>
   <td>
-    &#x200B;3. 針對您的管道，點選……圖示，然後選取<b>執行</b>選項。 如果系統提示您執行管道，請點選<b>執行</b>並等候管道<b>狀態</b>變更為<b>已完成</b>。  
+    3. 針對您的管道，點選……圖示，然後選取<b>執行</b>選項。 如果系統提示您執行管道，請點選<b>執行</b>並等候管道<b>狀態</b>變更為<b>已完成</b>。  
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
+    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/onboarding/demo-add-on/create-program#create-program">
       <img alt="AEM as a Cloud Service計畫" src="assets/run-build-pipeline.png">
     </a>
     <br>

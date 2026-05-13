@@ -10,9 +10,13 @@ contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 3af67fd41cdd1e63a460e56ef1d273c90b3954d7
+TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: cc2553bb4b16ea8c31664c227921c4e91d1c7a62
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: 943
 ht-degree: 51%
 
 ---
@@ -302,12 +306,12 @@ ht-degree: 51%
       git push origin
       ```
 
-1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道執行成功後，Adaptive Forms核心元件會針對對應的環境啟用。 此外，調適型表單 (核心元件) 範本和 Canvas 3.0 主題新增至您的 Forms as a Cloud Service 環境中，為您提供自訂和建以核心元件為主調適型表單的選項。
 
 
-## 常見問答 {#faq}
+## 常見問題 {#faq}
 
 ### 核心元件有哪些？ {#core-components}
 
