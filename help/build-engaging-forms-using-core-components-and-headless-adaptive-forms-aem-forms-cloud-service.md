@@ -5,10 +5,17 @@ description: 使用核心元件和 Headless 建置吸引人的表單
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 28792fe1690e68cd301a0de2ce8bff53fae1605f
+TQID: https://experienceleague.adobe.com/vxO7ZkfNQ001uvMujjDotL5le6Q0gYN-YGoYMThWbAs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
 workflow-type: tm+mt
-source-wordcount: '2629'
-ht-degree: 55%
+source-wordcount: 2629
+ht-degree: 52%
 
 ---
 
@@ -407,7 +414,8 @@ ht-degree: 55%
 
    ![](/help/assets/screenshot2028120529.png)
 
-1. 打開用於啟動 **react-starter-kit-aem-headless-forms** 專案的命令提示字元視窗，**按 CTRL+C**，然後輸入 **Y**，並按 Enter 鍵終止 npm 程序。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
+1. 開啟用來啟動&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;專案的命令提示字元視窗，按&#x200B;**CTRL+C**，然後
+輸入&#x200B;**Y**，然後按Enter鍵終止npm程式。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
 
 1. 關閉 Visual Studio Code 和命令提示字元視窗。
 
@@ -493,7 +501,8 @@ ht-degree: 55%
 
    ![](/help/assets/screenshot2028127129.png)
 
-   該命令會啟動本機開發伺服器，並使用 Google Material UI 前端庫以無頭方式呈現從 AEM 擷取的表單定義。
+   該命令會啟動本機開發伺服器，並使用Google以Headless方式呈現從AEM擷取的表單定義
+材料UI前端資料庫。
 
    >[!NOTE]
    >
@@ -548,7 +557,8 @@ ht-degree: 55%
    ![](/help/assets/screenshot2028127729.png)
 
 
-   此變更適用於終端使用者，無需對 AEM Forms Server 中的表單定義進行任何變更，且是針對考慮中的無頭通道。 例如，本實驗中的網路管道。
+   這項變更適用於一般使用者，不會變更AEM Forms伺服器的表單定義，且會專屬於Headless
+考慮中的頻道。 例如，本實驗中的網路管道。
 
    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
 
