@@ -116,7 +116,7 @@ ht-degree: 11%
 
    成功建立AEM原型專案後，就會產生AEM套件。 您可以在[AEM原型專案資料夾]\all\target\[appid].all-[version].zip中找到該套件
 
-1. 使用[封裝管理員](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)，在所有製作和發佈執行個體上部署[AEM Archetype專案資料夾]\all\target\[appid].all-[version].zip封裝。
+1. 使用[封裝管理員](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager)，在所有製作和發佈執行個體上部署[AEM Archetype專案資料夾]\all\target\[appid].all-[version].zip封裝。
 
 >[!NOTE]
 >
