@@ -221,5 +221,5 @@ Headless表單最適合您下列需求：
 * [常見問題](faq.md)
 * [建立並發佈Headless表單](create-and-publish-a-headless-form.md)
 * [Headless調適型表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
+* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)
 * [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)
