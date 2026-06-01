@@ -10,18 +10,12 @@ topic-tags: develop
 hide: true
 exl-id: 07a71aac-de38-4839-b8d6-b47c3f575eb3
 TQID: https://experienceleague.adobe.com/akgLAvLprxdXwMCXmwobbeFDvQF0rPR2qiENi3dLLDM
-product_v2:
-  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 33435b2ff6c7ff5c936f9256889d1f85f977adfe
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2301
 ht-degree: 39%
 
 ---
@@ -66,20 +60,20 @@ ht-degree: 39%
 
 ### 練習 {#lesson-1-excercise}
 
-1. 開啟瀏覽器，然後輸入作者環境的URL。 例如：
+1. 開啟瀏覽器，然後輸入作者環境的URL。例如：
    [https://localhost:4502](https://localhost:4502)。
 
 1. 登入後，瀏覽至 AEM Forms UI。 點擊 **Forms**。
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113829.png){width="50%"}
 
 1. 點擊&#x200B;**表單和文件**。 關閉任何與偏好設定或資訊相關的快顯視窗。
 
-   ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028113929.png){width="50%"}
 
    顯示所有可用的表格。
 
-   ![](/help/assets/screenshot2028114029.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028114029.png){width="50%"}
 
 ## 第二課
 
@@ -96,10 +90,10 @@ ht-degree: 39%
 1. 為表單建立一個提交端點：
 
    1. 在新的瀏覽器標籤中打開 <https://pipedream.com/requestbin>。
-      ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
+      ![](/help/assets/screenshot2028114329.png){width="50%"}
 
    1. 點選 **Create a public bin** 並複製端點 URL。
-      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
+      ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%"}
 
    此特定端點可作為提交和檢視資料的範例。 在實際生產中，您會使用自己的端點或資料來源來儲存擷取的資料。
 
@@ -108,13 +102,13 @@ ht-degree: 39%
    1. 在第1課使用的瀏覽器標籤中，導覽至AEM Forms網頁介面，並導覽至&#x200B;**Forms** > **Forms和檔案**。
 
    1. 點選 **Create** 並選擇 Adaptive Form。
-      ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
+      ![](/help/assets/creating-adaptive-form-6-5.png){width="50%"}
 
    1. 從範本選取畫面選取&#x200B;**Blank with Core Components**&#x200B;範本，如下所示，然後按一下&#x200B;**下一步**。
-      ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
+      ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%"}
 
-   1. 指定`Contact us`作為表單的&#x200B;**標題**。 確定表單的&#x200B;**名稱**&#x200B;是`contact-us`。
-      ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
+   1. 指定`Contact us`作為表單的&#x200B;**標題**。確定表單的&#x200B;**名稱**&#x200B;是`contact-us`。
+      ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%"}
 
    1. 按一下「**建立**」。 隨即顯示對話方塊。
 
@@ -122,11 +116,11 @@ ht-degree: 39%
 
    1. 開啟「元件」瀏覽器，並將「面板」元件拖放至畫面中央。
 
-      ![](/help/assets/lab65-add-panel.png){width="50%" align="left"}
+      ![](/help/assets/lab65-add-panel.png){width="50%"}
 
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
 
-      ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
+      ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%"}
 
 
    1. 開啟「內容瀏覽器」，按一下「指南容器」屬性圖示，然後開啟&#x200B;**提交**&#x200B;標籤。
@@ -135,7 +129,7 @@ ht-degree: 39%
 
    1. 選取&#x200B;**啟用POST要求**&#x200B;選項，並在&#x200B;**POST要求的URL**&#x200B;文字方塊中指定第2課所建立的REST端點，然後按一下&#x200B;**完成**&#x200B;圖示。
 
-      ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
+      ![](/help/assets/configure-submit-action.png){width="50%"}
 
 1. 發佈最適化表單：
 
@@ -159,7 +153,7 @@ ht-degree: 39%
 
 1. 使用管理員權限打開命令提示字元或殼層：
 
-   ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
@@ -182,19 +176,19 @@ ht-degree: 39%
    code .
    ```
 
-   ![](/help/assets/screenshot2028126029.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028126029.png){width="50%"}
 
 1. 選取&#x200B;**信任上層資料夾中所有文件的作者**，並點選&#x200B;**是的，我信任作者**。
 
-   ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116229.png){width="50%"}
 
 1. 將`env_template`檔案重新命名為.env。  要重新命名檔案，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
 
-   ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028116429.png){width="30%"}
 
    </br>
 
-   ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028116529.png){width="50%"}
 
 1. 為.env檔案中的變數設定下列值，並儲存檔案：
 
@@ -235,12 +229,12 @@ ht-degree: 39%
    >如果您在執行`npm run live`命令超過3-4分鐘後，在瀏覽器中遇到空白熒幕，請將瀏覽器URL中的`localhost`變更為127.0.0.1並按&#x200B;**Enter**。
 
 
-   ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
+   ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%"}
 
 
 1. 在 Visual Studio Code 中，打開 `PROJECT\src\site\_variables.scss` 檔案。 請注意，`$error` 顏色是紅色陰影。
 
-   ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. 在瀏覽器中，提交表單以在&#x200B;**名字**&#x200B;欄位中看到紅字。
 
@@ -271,7 +265,7 @@ ht-degree: 39%
 
 1. 使用管理員權限打開命令提示字元。
 
-   ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
@@ -300,13 +294,13 @@ ht-degree: 39%
 
    Visual Studio Code 視窗隨即開啟。
 
-   ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028117429.png){width="50%"}
 
 若要轉譯託管在您的發佈環境中的表單：
 
 1. 將env_template檔案重新命名為.env檔案。 要重新命名，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**&#x200B;選項。
 
-   ![](/help/assets/screenshot2028117629.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028117629.png){width="30%"}
 
    ![](/help/assets/screenshot2028117729.png)
 
@@ -355,7 +349,7 @@ ht-degree: 39%
 
 1. 選取&#x200B;**聯絡電話**&#x200B;欄位，然後按一下工具列中的&#x200B;**編輯圖示（鉛筆圖示）**。 如果您看不到彈出式工具列，請切換到編輯模式。 按一下&#x200B;**預覽**&#x200B;按鈕右上角的&#x200B;**編輯**&#x200B;按鈕。
 
-   ![](/help/assets/change-field-title.png){width="50%" align="left"}
+   ![](/help/assets/change-field-title.png){width="50%"}
 
 1. 將標籤變更為&#x200B;**行動電話號碼**。 點擊表單中的任何空白區域將儲存對表單所做的變更。
 
@@ -376,7 +370,7 @@ ht-degree: 39%
    ![](/help/assets/headless-adaptive-form.png)
 
 1. 開啟用來啟動&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;專案的命令提示字元視窗，按&#x200B;**CTRL+C**，然後
-輸入&#x200B;**Y**，然後按Enter鍵終止npm程式。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
+輸入**Y**，然後按Enter鍵終止npm程式。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
 
 1. 關閉 Visual Studio Code 和命令提示字元視窗。
 
@@ -397,7 +391,7 @@ ht-degree: 39%
 
 1. 使用管理員權限打開命令提示字元。
 
-   ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. 在命令提示字元上，使用以下命令來瀏覽至`c:\git`資料夾。
 
@@ -435,7 +429,7 @@ ht-degree: 39%
 
 1. 將&#x200B;**env_template**&#x200B;檔案重新命名為&#x200B;**.env**&#x200B;檔案。 要重新命名，請用右鍵按一下 **env_template** 檔案，然後選擇&#x200B;**重新命名**。
 
-   ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
+   ![](/help/assets/screenshot2028126629.png){width="30%"}
 
 1. 為 .env 檔案中的變數設定以下值。 更新變數後，儲存檔案。 使用 **CTRL + S** 切換組合以儲存檔案。
 
@@ -506,7 +500,7 @@ ht-degree: 39%
 
 1. 重新整理瀏覽器（如果未自動重新整理）以檢視文字輸入元件使用不同的變體。
 
-   ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
+   ![](/help/assets/screenshot2028127729.png){width="50%"}
 
 
    這項變更適用於一般使用者，不會變更AEM Forms伺服器的表單定義，且會專屬於Headless
@@ -540,12 +534,12 @@ ht-degree: 39%
 
 ## 資源
 
-* [最適化表單核心元件簡介](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-core-components/using/adaptive-forms/introduction)
+* [最適化表單核心元件簡介](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/adaptive-forms/introduction)
 
-* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
+* [使用核心元件建立最適化表單](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components)
 
 * [更新核心元件型AF的樣式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)
 
-* [Headless最適化Forms](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/overview)
+* [Headless最適化Forms](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/overview)
 
-* [使用Headless React入門套件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
+* [使用Headless React入門套件](https://experienceleague.adobe.com/en/docs/experience-manager-headless-adaptive-forms/using/get-started/create-and-publish-a-headless-form)
