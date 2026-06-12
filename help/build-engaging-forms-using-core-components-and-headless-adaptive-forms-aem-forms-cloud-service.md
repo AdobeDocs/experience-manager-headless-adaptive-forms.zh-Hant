@@ -6,9 +6,12 @@ seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
 TQID: https://experienceleague.adobe.com/vxO7ZkfNQ001uvMujjDotL5le6Q0gYN-YGoYMThWbAs
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 33435b2ff6c7ff5c936f9256889d1f85f977adfe
 workflow-type: tm+mt
 source-wordcount: 2589
@@ -105,15 +108,15 @@ ht-degree: 52%
    1. 從範本選擇畫面中選擇 **Blank with Core Components** 範本，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.1520pm.png)
 
-   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**主題，如下圖：
+   1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**&#x200B;主題，如下圖：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**欄位的公用bin，如下所示：
+   1. 按一下&#x200B;**提交**&#x200B;標籤，然後選取&#x200B;**提交至REST端點**&#x200B;卡片，並在&#x200B;**URL中指定POST要求**&#x200B;欄位的公用bin，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 按一下「**建立**」。 在您的表單上指定名稱和標題。 例如，**註冊**。 按一下&#x200B;**建立**。
 
-   1. 最適化表單編輯器隨即開啟。關閉任何快顯視窗或對話方塊，以取得偏好設定或資訊。按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**元件分別新增至空白表單的頂端和底部。
+   1. 最適化表單編輯器隨即開啟。關閉任何快顯視窗或對話方塊，以取得偏好設定或資訊。按一下左側邊欄上的元件瀏覽器，並將&#x200B;**Header**&#x200B;和&#x200B;**Footer**&#x200B;元件分別新增至空白表單的頂端和底部。
       ![](/help/assets/screenshot2028121929.png)
 
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
@@ -412,7 +415,7 @@ ht-degree: 52%
    ![](/help/assets/screenshot2028120529.png)
 
 1. 開啟用來啟動&#x200B;**react-starter-kit-aem-headless-forms**&#x200B;專案的命令提示字元視窗，按&#x200B;**CTRL+C**，然後
-輸入**Y**，然後按Enter鍵終止npm程式。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
+輸入&#x200B;**Y**，然後按Enter鍵終止npm程式。 停止 npm 伺服器很重要，這樣就不會與下一組練習發生衝突。
 
 1. 關閉 Visual Studio Code 和命令提示字元視窗。
 
