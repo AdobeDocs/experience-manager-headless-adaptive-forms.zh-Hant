@@ -9,10 +9,18 @@ level: Beginner, Intermediate
 keywords: Headless CMS、適用性表單、Headless UI、Headful CMS、語音助理、alexa、聊天機器人、WhatsApp架構
 hide: true
 TQID: https://experienceleague.adobe.com/HMhHwfjQTZe2BaoMbMilfOJ0-GZrZsHTGjTBqeU-ORM
-product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: f013e6ab-27b8-4645-b5a7-31ffa474d04f
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+  - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
 source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
 workflow-type: tm+mt
@@ -33,7 +41,7 @@ Headless調適型表單可協助您進行以下工作：
 * 以您選擇的程式語言建置高品質的多管道表單。
 * 以原生方式將表單整合至您的案頭和行動應用程式、網站和聊天應用程式。
 * 透過表單應用程式重複使用您的專有UI元件。
-* 使用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[功能。
+* 使用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的功能。
 
 此外，您可以自由開發自己的元件，使用您選擇的任何UI架構和程式語言來呈現表單。 您也可以使用現成可用的React元件來轉譯Headless調適型表單。
 
