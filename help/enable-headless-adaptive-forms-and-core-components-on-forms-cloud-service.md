@@ -9,22 +9,18 @@ level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
-exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
 TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
-product_v2:
-  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: cc2553bb4b16ea8c31664c227921c4e91d1c7a62
+product_v2: id: e8f6de9b-cf88-4405-8d10-15efa08c230eid: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
+source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 946
 ht-degree: 51%
 
 ---
+
 
 # 在AEM Forms as a Cloud Service上啟用Headless最適化Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
@@ -33,23 +29,18 @@ ht-degree: 51%
 ## 考量事項
 
 * 當您建立全新的AEM Forms as a Cloud Service程式時，[已針對您的環境啟用Headless最適化Forms](#are-adaptive-forms-core-components-enabled-for-my-environment)。
-
 * 如果您正在執行核心元件[未啟用](#enable-components)的舊版Forms as a Cloud Service程式，請先將[最適化Forms核心元件相依性](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment)新增到您的Cloud Service存放庫。 將更新的存放庫部署到每個環境以啟用Headless最適化表單。
-
 * 如果您的Cloud Service環境已可讓您[建立以核心元件為基礎的最適化表單](create-a-headless-adaptive-form.md)，Headless的最適化表單會自動啟用。 接著，您可以將這些表單當作Headless體驗傳送至行動裝置、網路、原生應用程式，或任何需要它們的服務。
 
 >[!NOTE]
 >
->
-> Adobe提供最適化Forms [入門套件（React應用程式）](create-and-publish-a-headless-form.md)，以協助開發人員快速開始進行Headless最適化Forms開發，而不需在AEM Forms as a Cloud Service環境中啟用Headless最適化Forms。 您稍後可以透過[快速動手開發Headless表單](create-and-publish-a-headless-form.md)，在Forms as a Cloud Service環境中啟用Headless最適化Forms。
+>Adobe提供最適化Forms [入門套件（React應用程式）](create-and-publish-a-headless-form.md)，以協助開發人員快速開始進行Headless最適化Forms開發，而不需在AEM Forms as a Cloud Service環境中啟用Headless最適化Forms。 您稍後可以透過[快速動手開發Headless表單](create-and-publish-a-headless-form.md)，在Forms as a Cloud Service環境中啟用Headless最適化Forms。
 
 ## 為AEM Forms as a Cloud Service環境啟用Headless最適化Forms
 
 依照下列順序執行下列步驟，為AEM Forms as a Cloud Service環境啟用Headless最適化Forms
 
-<!-- Missing image ALT tag -->
-![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
-
+![啟用表單影像](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 ## &#x200B;1. 複製AEM Forms as a Cloud Service Git存放庫 {#clone-git-repository}
 
@@ -207,18 +198,18 @@ ht-degree: 51%
    >[!NOTE]
    >
    >
-   >  以您的 appld 取代 `${appId}`。
+   >以您的 appld 取代 `${appId}`。
    >
-   >  若要尋找你的 `${appId}` (在 `[AEM Repository Folder]/all/pom.xml` 檔案內)，搜尋 `-packages/application/install` 一詞。 在 `-packages/application/install` 一詞以前的文字是您的 `${appId}`。 例如，以下程式碼 `myheadlessform` 是 `${appId}`。
+   >若要尋找你的 `${appId}` (在 `[AEM Repository Folder]/all/pom.xml` 檔案內)，搜尋 `-packages/application/install` 一詞。 在 `-packages/application/install` 一詞以前的文字是您的 `${appId}`。 例如，以下程式碼 `myheadlessform` 是 `${appId}`。
    >
-   >   ```
-   >             <embedded>
-   >                     <groupId>com.myheadlessform</groupId>
-   >                     <artifactId>myheadlessform.ui.apps<artifactId>
-   >                     <type>zip</type>
-   >                   <target>/apps/myheadlessform-packages/application install</target>
-   >             </embedded>
-   >   ```
+   >```
+   >         <embedded>
+   >                 <groupId>com.myheadlessform</groupId>
+   >                 <artifactId>myheadlessform.ui.apps<artifactId>
+   >                 <type>zip</type>
+   >               <target>/apps/myheadlessform-packages/application install</target>
+   >         </embedded>
+   >```
 
 1. 在 `[AEM Repository Folder]/all/pom.xml` 檔案的 `<dependencies>` 部份中，新增以下相依性並儲存檔案：
 
@@ -311,7 +302,7 @@ ht-degree: 51%
       git push origin
       ```
 
-1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-manager/content/using/code-deployment)。
+1. 將檔案提交到 Git 存放庫後，[執行管道](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment)。
 
    管道執行成功後，Adaptive Forms核心元件會針對對應的環境啟用。 此外，調適型表單 (核心元件) 範本和 Canvas 3.0 主題新增至您的 Forms as a Cloud Service 環境中，為您提供自訂和建以核心元件為主調適型表單的選項。
 
