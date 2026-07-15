@@ -5,7 +5,8 @@ user-guide-description: Adobe Experience Manager Headless最適化表單的檔�
 feature: Adaptive Forms
 role: Developer
 index: true
-source-git-commit: 3af67fd41cdd1e63a460e56ef1d273c90b3954d7
+nudge: true
+source-git-commit: 2b4840d39f7e98684003a941e96f45dede196f23
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 3%
