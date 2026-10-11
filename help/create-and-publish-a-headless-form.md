@@ -8,25 +8,36 @@ role: Admin, Developer
 level: Beginner, Intermediate
 index: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
-TQID: https://experienceleague.adobe.com/f1O-fjIaXVLzKPtCyxy2TeZFXRtdKOE0V2CuXAOcS3I
+TQID: 'https://experienceleague.adobe.com/f1O-fjIaXVLzKPtCyxy2TeZFXRtdKOE0V2CuXAOcS3I'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+    internal-label: Metadata
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1037'
 ht-degree: 1%
-
 ---
-
 # 使用React應用程式建立和預覽Headless表單 {#introduction}
 
 <!-- Missing image ALT image tags -->

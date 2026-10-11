@@ -9,26 +9,37 @@ level: Beginner, Intermediate
 keywords: headless，最適化表單，常見問題
 index: true
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
-TQID: https://experienceleague.adobe.com/GqYwqgwHe82HXLvljMyGW4PDOkmi7Xg2MKjYxibsFnY
+TQID: 'https://experienceleague.adobe.com/GqYwqgwHe82HXLvljMyGW4PDOkmi7Xg2MKjYxibsFnY'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+    internal-label: Beginner
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 0%
-
 ---
-
 # 常見問題 (FAQ) {#headless-adaptive-forms-faq}
 
 ## 如要使用Headless調適型表單，我應該知道React.js嗎？

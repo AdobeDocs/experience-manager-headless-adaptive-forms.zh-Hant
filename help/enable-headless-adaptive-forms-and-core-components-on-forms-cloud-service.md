@@ -9,27 +9,36 @@ level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
-TQID: https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q
+exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
+TQID: 'https://experienceleague.adobe.com/T5J7Am-NsZ-hzZkRRg3LEk0anMjhXaEznf1bijy2H-Q'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
-source-git-commit: 64fe5704fcd6ace7461a02007d99710233b74d22
+    internal-label: Beginner
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 51%
-
 ---
-
 
 # 在AEM Forms as a Cloud Service上啟用Headless最適化Forms {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
 
-在AEM Forms as a Cloud Service上啟用Headless最適化Forms，可讓您開始使用AEM Forms Cloud Service例項建立、發佈及傳送Headless Forms至多個管道。 您需要啟用調適型表單核心元件的環境才能使用 Headless 調適型表單。
+在AEM Forms as a Cloud Service上啟用Headless最適化Forms，可讓您開始使用AEM Forms Cloud Service例項建立、發佈及傳送Headless Forms至多個管道。 您需要已啟用調適型表單核心元件的環境，才能使用 Headless 調適型表單。
 
 ## 考量事項
 
@@ -56,7 +65,7 @@ ht-degree: 51%
 1. 按一下&#x200B;**存取存放庫資訊**&#x200B;按鈕，存取和管理您的Git存放庫。 此頁面包括以下資訊：
 
    * Cloud Manager Git 存放庫的 URL。
-   * Git 存儲庫認證 (使用者名稱和密碼) Git 使用者名稱。
+   * Git 存放庫認證 (使用者名稱和密碼) Git 使用者名稱。
 
    按一下「**生成密碼**」，查看或生成密碼。
 

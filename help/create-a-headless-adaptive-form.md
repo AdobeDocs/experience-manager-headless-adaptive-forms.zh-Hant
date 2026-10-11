@@ -8,25 +8,36 @@ role: Admin, Developer
 level: Beginner, Intermediate
 index: true
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
-TQID: https://experienceleague.adobe.com/-oczwo5CsVwXdzfKgQ9WwM16vBoPY4BVW-02Oeht1A4
+TQID: 'https://experienceleague.adobe.com/-oczwo5CsVwXdzfKgQ9WwM16vBoPY4BVW-02Oeht1A4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+    internal-label: Content structure
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: '1328'
 ht-degree: 49%
-
 ---
-
 # 使用最適化Forms編輯器建立Headless最適化表單 {#create-a-headless-adaptive-form-using-adaptive-forms-editor}
 
 AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless最適化Forms。 提供超過24個核心元件，在編輯器中拖放元件即可輕鬆建立表單。 此外，規則編輯器可讓您將驗證新增至表單欄位。
@@ -59,10 +70,10 @@ AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless�
 
 * 存取[AEM Forms as a Cloud Service作者執行個體](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-forms-cloud-service)或[本機AEM Forms as a Cloud Service SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment)環境。
 
-* **最適化表單範本**：範本提供基本結構，並定義最適化表單的外觀（版面配置和樣式）。 其中具有包含特定屬性和內容結構的預先格式化元件。 它也會提供定義主題並提交動作的選項。 主題會定義外觀，而提交動作會定義提交最適化表單時要採取的動作。 例如，將所收集的資料傳送到資料來源。 雲端服務會提供一個名為 blank 的 OOTB 範本：
+* **最適化表單範本**：範本提供基本結構，並定義最適化表單的外觀（版面配置和樣式）。 它具有預先格式化的元件，其中包含特定屬性和內容結構。 它也會提供定義主題並提交動作的選項。 主題會定義外觀，而提交動作會定義提交最適化表單時要採取的動作。 例如，將所收集的資料傳送到資料來源。 雲端服務會提供一個名為 blank 的 OOTB 範本：
 
-   * 該 `blank Adaptive Forms (Core Components)` 範本會包含在每個新的 AEM Forms as a Cloud Service 程式中。
-   * 您也可以[從頭開始建立新的Adaptive Forms （核心元件）範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor)。
+  * 該 `blank Adaptive Forms (Core Components)` 範本會包含在每個新的 AEM Forms as a Cloud Service 程式中。
+  * 您也可以[從頭開始建立新的Adaptive Forms （核心元件）範本](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/template-editor)。
 
 * **最適化表單主題**：主題包含元件和面板的樣式詳細資料。 樣式包括背景顏色、狀態顏色、透明度、對齊方式和大小等屬性。 套用主題時，指定的樣式會反映在對應的元件上。  `Canvas` 會包含在每個新的 AEM Forms as a Cloud Service 程式中。
 
@@ -93,7 +104,7 @@ AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless�
 
    * **JSON結構描述**： [JSON結構描述](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/adaptive-form-json-schema-form-model)最適化Forms可提供關聯JSON結構描述（代表正在產生或使用之資料的結構）的功能，讓您與組織的後端系統無縫整合。 此關聯可讓作者使用結構描述的元素，以動態方式將內容新增至最適化表單。 在製作期間，您可以在內容瀏覽器的「資料模型物件」標籤中快速存取結構描述元素。 建立新的最適化表單時，編輯器會自動新增所有欄位。
 
-   根據預設，系統會自動選取相關聯 JSON 結構描述的所有欄位，並轉換成對應的最適化表單元件，進而簡化編寫流程。 精靈新增了便利性，可讓您透過使用核取方塊，選擇性地選擇應包含在調適型表單中的欄位。
+   根據預設，系統會自動選取相關聯 JSON 結構描述的所有欄位，並轉換成對應的自適應表單元件，進而簡化編寫流程。 精靈新增了便利性，可讓您透過使用核取方塊，選擇性地選擇應包含在調適型表單中的欄位。
 
 1. 在「**[!UICONTROL 提交]**」標籤中，選取提交動作：
 
@@ -109,7 +120,7 @@ AEM Forms as a Cloud Service提供方便好用的編輯器，可建立Headless�
    * **[!UICONTROL 名稱：]**&#x200B;指定表單的名稱。 存放庫中會建立具有指定名稱的節點。 當您開始輸入標題時，會自動產生名稱欄位的值。 您可以變更建議的值。 名稱欄位只能包含字母數字字元、連字號和底線。 所有無效的輸入都會以連字號取代。
    * **[!UICONTROL 路徑：]**&#x200B;指定最適化表單的儲存位置。 您可以將最適化表單直接儲存在 `/content/dam/formsanddocuments`，或建立一個資料夾 (例如 `/content/dam/formsanddocuments/adaptiveforms`) 以儲存最適化表單。 要使用路徑中的資料夾之前，請務必先建立該資料夾。 「**[!UICONTROL 路徑]**」欄位不會自動建立資料夾。
 
-1. 點選「**[!UICONTROL 建立]**」。 此時已建立最適化表單，並在最適化表單編輯器中開啟。 編輯器會顯示範本中可用的內容。  視最適化表單的類型而定，出現在相關聯 <!--XFA form template, XML schema or -->JSON 結構描述或表單資料模型中的表單元素，會顯示在側邊欄「**[!UICONTROL 內容瀏覽器]**」的「**[!UICONTROL 資料模型物件]**」標籤中。 您也可以拖放這些元素以建置自己的最適化表單。
+1. 點選「**[!UICONTROL 建立]**」。 此時已建立最適化表單，並在最適化表單編輯器中開啟。 編輯器會顯示範本中可用的內容。  視最適化表單的類型而定，出現在相關聯 <!--XFA form template, XML schema or -->JSON 結構描述或表單資料模型中的表單元素，會顯示在側邊欄「**[!UICONTROL 內容瀏覽器]**」的「**[!UICONTROL 資料模型物件]**」標籤中。 您也可以拖放這些元素以建置自己的自適應表單。
 
 現在，您可以將最適化Forms元件拖放至最適化Forms容器來設計和建立表單。
 
