@@ -9,13 +9,30 @@ level: Beginner, Intermediate
 keywords: Headless forms， headless form library，無頭表單庫， adaptive forms，最適化表單，狀態管理，驗證， design system，設計系統， SSR， CMS
 index: true
 exl-id: 539da3e9-25c5-4e26-ba4e-f68cf849bca4
-source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
+product_v2:
+  - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
+feature_v2:
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
 source-wordcount: '2605'
 ht-degree: 0%
-
 ---
-
 # 瞭解Headless表單 — 概念與常見問答 {#understanding-headless-forms}
 
 本指南會回答有關Headless表單的一般常見問題，以及如何將其套用至AEM Headless最適化Forms。 用它來決定何時使用Headless方法，以及如何在棧疊中實作、樣式化和整合表單。
@@ -212,7 +229,7 @@ Headless表單最適合您下列需求：
 * **預填和提交** - [預填](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data)和提交可以點選REST端點，因此您可以從CRM、DAM或商務後端預填和提交到相同或不同的系統。 AEM Forms也支援[Microsoft Dynamics和Salesforce](faq.md)、REST、電子郵件和自訂提交動作。
 * **Forms資料模型** - AEM Forms提供Forms資料模型，可連線至不同的資料來源；Headless表單可使用這些功能進行預填、驗證和提交，而不需要您自行建立每個整合。
 
-若為行動與離線案例，建議透過Headless最適化Forms API[&#128279;](mobile-forms-best-practices.md) 建置您自己的應用程式並擷取表單定義。
+若為行動與離線案例，建議透過Headless最適化Forms API](mobile-forms-best-practices.md) [建置您自己的應用程式並擷取表單定義。
 
 ## 另請參閱 {#see-also}
 
@@ -221,5 +238,5 @@ Headless表單最適合您下列需求：
 * [常見問題](faq.md)
 * [建立並發佈Headless表單](create-and-publish-a-headless-form.md)
 * [Headless調適型表單API](https://opensource.adobe.com/aem-forms-af-runtime/api/)
-* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=zh-Hant)
+* [程式碼遊樂場](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
 * [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/)

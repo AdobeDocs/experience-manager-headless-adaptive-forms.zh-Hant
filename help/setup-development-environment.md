@@ -3,13 +3,14 @@ title: 設定AEM Headless最適化表單的開發環境
 description: 設定AEM Headless最適化表單的開發環境
 hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
-source-git-commit: 893f0428c08e6216cb293ab2f4c427b7d1c26060
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '805'
 ht-degree: 3%
-
 ---
-
 
 # 設定本機開發環境 {#headless-adaptive-forms-setup-development-environment}
 
@@ -78,7 +79,7 @@ AEM as a Cloud Service SDK (AEM SDK)為開發人員提供建立和測試Headless
 
    >[!NOTE]
    >
-   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
+   > 請勿連按兩下.jar檔案以啟動它。 這會導致[錯誤](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/aem-runtime#troubleshooting-double-click)。
 
 1. 開啟命令提示字元：
    * 在Windows上，使用&#x200B;**以系統管理員身分執行**&#x200B;選項，以提升許可權模式開啟命令提示字元。

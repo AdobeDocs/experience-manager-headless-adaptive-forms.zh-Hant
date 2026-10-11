@@ -9,26 +9,37 @@ level: Beginner, Intermediate
 keywords: Headless CMS、適用性表單、Headless UI、Headful CMS、語音助理、alexa、聊天機器人、WhatsApp架構
 index: true
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
-TQID: https://experienceleague.adobe.com/ohy-aaFe-yZDL8uQFFps1jKHFRW5ZxB77GVsOvRZDy4
+TQID: 'https://experienceleague.adobe.com/ohy-aaFe-yZDL8uQFFps1jKHFRW5ZxB77GVsOvRZDy4'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
+    internal-label: Experience Manager Forms
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
   - id: f013e6ab-27b8-4645-b5a7-31ffa474d04f
+    internal-label: APIs
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 12f711845becc93305717fb0c95e82355a8e97a5
+    internal-label: Beginner
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 0%
-
 ---
-
 # 簡介
 
 Adobe Experience Manager (AEM) Headless最適化Forms是在Adobe Experience Manager平台中建立和管理headless網路表單的解決方案。 此功能可讓組織建立、發佈和管理互動式表單，這些表單可透過API存取及互動，而非透過傳統的圖形使用者介面。 AEM Headless最適化Forms在表單開發和部署方面提供了更大的彈性和可擴充性，並透過根據特定需求量身打造表單設計和功能的能力，改善了使用者體驗。 此解決方案利用AEM和Headless技術的功能，為建立、管理和部署各種使用案例和應用程式的網路表單提供強大的平台。
@@ -40,7 +51,7 @@ Headless調適型表單可協助您進行以下工作：
 * 以您選擇的程式語言建置高品質的多管道表單。
 * 以原生方式將表單整合至您的案頭和行動應用程式、網站和聊天應用程式。
 * 透過表單應用程式重複使用您的專有UI元件。
-* 利用Adobe Experience Manager Forms[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的功能。
+* 利用Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms)的[功能。
 
 針對行動與離線表單使用案例，建議透過Headless最適化Forms API建立您自己的原生應用程式並擷取表單定義。 如需詳細資訊，請參閱[行動表單最佳實務](mobile-forms-best-practices.md)。
 

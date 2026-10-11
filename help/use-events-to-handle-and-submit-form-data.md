@@ -3,13 +3,17 @@ title: 使用事件來處理和提交表單Headless最適化表單資料
 description: 使用事件來處理和提交表單Headless最適化表單資料。
 hide: true
 exl-id: f80a0d44-fa76-4df7-883e-3f5d0384a2a5
-source-git-commit: 3af67fd41cdd1e63a460e56ef1d273c90b3954d7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
-
 ---
-
 # 使用事件來處理和提交表單Headless最適化表單資料 {#using-events}
 
 到目前為止，您已經瞭解如何[建立自訂Headless最適化表單](create-and-publish-a-headless-form.md)，以及[使用自訂React元件來設定表單樣式](use-google-material-ui-react-components-to-render-a-headless-form.md)。 本文主要說明如何使用事件來保留使用者輸入的資料，並將其提交至資料存放區。

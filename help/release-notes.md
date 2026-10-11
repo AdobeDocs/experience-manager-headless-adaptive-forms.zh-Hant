@@ -3,13 +3,14 @@ title: AEM Headless最適化Forms概述
 description: AEM Headless最適化表單概觀。
 hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
-source-git-commit: 86129488bec7faed87600a237ac034ca1b601187
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: b34afbc4f692b81838ad6947895c9b347dff6d62
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 4%
-
 ---
-
 
 # 發行說明
 
